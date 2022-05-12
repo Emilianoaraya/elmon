@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; }
+  
+  /*  GLOBALES DE ETIQUETA  */
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif; }
+  
+    div[id]{
+      scroll-margin-top: 60px;
+    }
+  body {
+   
+    background-image: url(/img/fondo.jpg);
+    background-size: cover;
+    background-position: center center;
+   background-attachment: fixed;
+  
+  
+  }
+  h2{
+    letter-spacing: 3px;
+  }
+ 
+  h3{
+   
+    font-size: 25px;
+    font-weight: 500;
+    display: inline-block;
+    margin-top: 25px;
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+    position: relative;
+    padding: 5px 11px;
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    
+
+  }
+
+  p{
+    margin-bottom: 18px;
+      font-size: 11px;
+      line-height: 1.2;
+      color: floralwhite;
+      text-align: center;
+  }
+ 
+
+       /* CLASES*/
+
+  .container{
+    width: 100%;
+    display: flex;
+    background-image: url(/img/huica1e93b51910d27c05f4cd363ec11787.jpg);
+    background-attachment: fixed;
+    background-position: center;
+  }
+  .card{
+    width: 100%;
+    height: 50%;
+    margin: 20px;
+    border-radius: 3px;
+    background-color: black;
+    
+  }
+  .card-text{
+    padding: 15px;
+    text-align: center;
+  }
+
+  .card-img-top{
+    height: 250px;
+  }
+
+
+  .precio{
+    font-size: 25px;
+    color: rgb(238, 144, 49);
+    text-align: center;
+  }
+
+/*SANDWINCH*/
+
+#boxSand{
+  justify-content: space-evenly;
+}
+
+
+  h4{
+    font-size: 23px;
+    margin-bottom: 4px;
+    color: rgb(251, 250, 250);
+    width: 50%;
+  }
+  h5{
+    font-size: 25px;
+    color: rgb(241, 240, 239);
+    text-align: center;
+  }
+header{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-image: url(/img/huica1e93b51910d27c05f4cd363ec11787.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed ; 
+}
+
+.alinear{
+  display: flex;
+  justify-content: center;
+
+}
+.logo{
+ 
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  height: auto;
+  width: 50%;
+  margin: auto;
+  transition: linear 4s;
+  animation-duration: 4s;
+  animation-name: aparecer; 
+}
+
+
+/*FOOTER*/
+footer{
+  background-color: transparent;
+
+}
+.boxFooter{
+  display: flex;
+  align-items: center;
+}
+nav{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h2{
+  color: #ffffff;
+  padding:  0 15px 0 15px;
+  font-size: 3em;
+}
+
+.redes{
+  list-style-type: none;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+.redes li{
+  display: inline-block;
+  margin: 0 15px 0 15px;
+  width: 50px;
+  height: 50px;
+
+}
+li a img{
+  width: 20px;
+}
+.textFooter{
+  line-height: 50px;
+  letter-spacing: 5px;
+}
+/* /*ANIMACION REDES */
+.facebook{
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+} 
+.facebook:hover{
+  animation: pulsate 1s ease-in-out
+}
+
+@keyframes pulsate{
+  0%{
+    box-shadow:
+     0 0 25px #5ddcff,
+     0 0 50px #4e00c2;
+  }
+} 
+a{
+  width: 7em;
+  margin: 10px;
+
+}
+
+ul {
+  padding-left: 0;
+text-align: center; }
+
+ul li a img {
+  width: 40px;
+  height: 40px;
+  margin: auto;
+}
+
+ul nav {
+  transition-duration: 3s;
+  animation-timing-function: 2s ease-in;
+  animation-direction: alternate-reverse; }
+
+ul div {
+  transition-duration: 3s;
+  transition-property: all;
+  animation-timing-function: 4s ease-out;
+  animation-direction: alternate-reverse; }
+
+.redes li a img:hover {
+  transform: scale(1.2); }
+
+#imgFooter{
+  width: 50%;
+  height: 50%;
+}
+.redes li a{
+  width: auto;
+
+}
+
+    .horarios{
+     
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+    }
+.horarios p{
+  margin-bottom: 2px;
+  margin-top: 10px;
+  font-size: 13px;
+  line-height: 1.4;
+  width: 100%;
+  text-align: center;
+}
