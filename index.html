@@ -4,10 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Le Mon</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <title>Le Mon</title> 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script> 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous"> 
     <link rel="stylesheet" href="style.css">
@@ -17,303 +14,618 @@
    <header>
      <div class="alinear">
        <img class="logo" src="/img/El Mon_Logotipo FINAL-02.png" alt="">
+       <img class="logoSponsor" src="/img/logoImperial.png" alt="">
       </div>
     </header>
+    
     <nav class="navbar sticky-top navbar-light bg-black w-100">
-      <div class="container-fluid">
-      <a class="btn btn-outline-secondary btn-sm w-auto" href="#elmon" role="button">Pizzas El Mon</a>
-      <a class="btn btn-outline-secondary btn-sm w-auto" href="#clasicas" role="button">Pizzas Clasicas</a>
-      <a class="btn btn-outline-secondary btn-sm w-auto" href="#sandwiches" role="button">Sandwiches</a>
-      <a class="btn btn-outline-secondary btn-sm w-auto" href="#bebidas" role="button">Bebidas Sin Alcohol</a>
-      <a class="btn btn-outline-secondary btn-sm w-auto" href="#cervezas" role="button">Cervezas</a>
-      <a class="btn btn-outline-secondary btn-sm w-auto" href="#postres" role="button">Postres</a>
-    </div>
+      <div class="container">
+          <div class="col-4 col-md-2 col-lg-2 d-flex justify-content-center">
+              <a class=" btn btn-outline-secondary btn-sm" href="#elmon" role="button">Pizzas El Mon</a>
+          </div>
+          <div class="col-4 col-md-2 col-lg-2 d-flex justify-content-center ">
+              <a class="btn btn-outline-secondary btn-sm" href="#clasicas" role="button">Pizzas Clasicas</a>
+          </div>
+          <div class="col-4 col-md-2 col-lg-2 d-flex justify-content-center">
+              <a class="btn btn-outline-secondary btn-sm" href="#pizzaNesas" role="button">Pizzanesas</a>
+          </div>
+          <div class="col-4 col-md-2 col-lg-2 d-flex justify-content-center">
+              <a class="btn btn-outline-secondary btn-sm" href="#fritters" role="button">Fritters</a>
+          </div>
+          <div class="col-4 col-md-2 col-lg-2 d-flex justify-content-center">
+              <a class="btn btn-outline-secondary btn-sm" href="#sandwiches" role="button">Sandwiches</a>
+          </div>
+          <div class="col-4 col-md-2 col-lg-2 d-flex justify-content-center">
+              <a id="btnBebida" class="btn btn-outline-secondary btn-sm" href="#bebidas" role="button">Bebidas Sin Alcohol</a>          
+          </div>
+          <div class="col-4 col-md-2 col-lg-2 d-flex justify-content-center">
+              <a class="btn btn-outline-secondary btn-sm" href="#vinos" role="button">Vinos</a>
+          </div>
+          <div class="col-4 col-md-2 col-lg-2 d-flex justify-content-center">
+              <a class="btn btn-outline-secondary btn-sm" href="#cervezas" role="button">Cervezas</a>
+          </div>
+          <div class="col-4 col-md-2 col-lg-2 d-flex justify-content-center">
+              <a class="btn btn-outline-secondary btn-sm" href="#postres" role="button">Postres</a>
+          </div>
+      </div>
     </nav>
-          <div id="elmon">
-              <h3><ins>PIZZAS EL MON</ins></h3>
-              <hr>
-          </div>  
-          <div class="container">
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="img/PIZA.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>    
-              <p class="precio">$250</p>     
+    <div id="elmon" class="container text-center mt-5">
+        <h3 class="display-6 style=".text-uppercase"><ins>Pizzas el mon</ins></h3>
+          <div  class="row mt-4">
+            <div class="col-12 col-md-3 col-lg-3 py-3">
+                <div class="card">
+                  <img src="/img/PIZA.jpg" class="card-img-top" alt="pizza1">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text-center">Some quick example text to build on the card title and make.</p>    
+                    <p class="precio">Chica: $250</p>                    
+                    <p class="precio">Mediana: $250</p>                    
+                    <p class="precio">Grande$250</p>  
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 col-lg-3 py-3">
+                <div class="card">
+                  <img src="/img/PIZA.jpg" class="card-img-top" alt="pizza1">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text-center">Some quick example text to build on the card title and make.</p>    
+                    <p class="precio">Chica: $250</p>                  
+                    <p class="precio">Mediana: $250</p>                  
+                    <p class="precio">Grande$250</p>   
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 col-lg-3 py-3">
+                <div class="card">
+                  <img src="/img/PIZA.jpg" class="card-img-top" alt="pizza1">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text-center">Some quick example text to build on the card title and make.</p>    
+                    <p class="precio">Chica: $250</p>                   
+                    <p class="precio">Mediana: $250</p>                   
+                    <p class="precio">Grande$250</p>   
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 col-lg-3 py-3">
+                <div class="card">
+                  <img src="/img/PIZA.jpg" class="card-img-top" alt="pizza1">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text-center">Some quick example text to build on the card title and make.</p>    
+                    <p class="precio">Chica: $250</p>                   
+                    <p class="precio">Mediana: $250</p>                   
+                    <p class="precio">Grande$250</p>   
+                  </div>
+                </div>
             </div>
           </div>
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="img/PIZA.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p> 
-              <p class="precio">$250</p> 
+          <div  class="row mt-4">
+            <div class="col-12 col-md-3 col-lg-3 py-3">
+                <div class="card">
+                  <img src="/img/PIZA.jpg" class="card-img-top" alt="pizza1">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text-center">Some quick example text to build on the card title and make.</p>    
+                    <p class="precio">Chica: $250</p>                   
+                    <p class="precio">Mediana: $250</p>                   
+                    <p class="precio">Grande$250</p>   
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 col-lg-3 py-3">
+                <div class="card">
+                  <img src="/img/PIZA.jpg" class="card-img-top" alt="pizza1">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text-center">Some quick example text to build on the card title and make.</p>    
+                    <p class="precio">Chica: $250</p>                    
+                    <p class="precio">Mediana: $250</p>                    
+                    <p class="precio">Grande$250</p>   
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 col-lg-3 py-3">
+                <div class="card">
+                  <img src="/img/PIZA.jpg" class="card-img-top" alt="pizza1">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text-center">Some quick example text to build on the card title and make.</p>    
+                    <p class="precio">Chica: $250</p>                   
+                    <p class="precio">Mediana: $250</p>                    
+                    <p class="precio">Grande$250</p>   
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 col-lg-3 py-3">
+                <div class="card">
+                  <img src="/img/PIZA.jpg" class="card-img-top" alt="pizza1">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text-center">Some quick example text to build on the card title and make.</p>    
+                    <p class="precio">Chica: $250</p>                    
+                    <p class="precio">Mediana: $250</p>                    
+                    <p class="precio">Grande$250</p>   
+                  </div>
+                </div>
             </div>
           </div>
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="img/PIZA.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p> 
-              <p class="precio">$250</p>        
-            </div>
+    </div>
+    <div id="clasicas" class="container text-center mt-5">
+      <h3 class="display-6"><ins>Pizzas Clasicas</ins></h3>
+        <div  class="row mt-4">
+          <div class="col-12 col-md-3 col-lg-3 py-3">
+              <div class="card">
+                <img src="/img/PIZA.jpg" class="card-img-top" alt="pizza1">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text-center">Some quick example text to build on the card title and make.</p>    
+                  <p class="precio">Chica: $250</p>                 
+                  <p class="precio">Mediana: $250</p>                  
+                  <p class="precio">Grande$250</p>   
+                </div>
+              </div>
           </div>
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="img/PIZA.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text-center ">Some quick example text to build on the card title and make up the bulk of the card's content.</p> 
-              <p class="precio">$250</p> 
+          <div class="col-12 col-md-3 col-lg-3 py-3">
+              <div class="card">
+                <img src="/img/PIZA.jpg" class="card-img-top" alt="pizza1">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text-center">Some quick example text to build on the card title and make.</p>    
+                  <p class="precio">Chica: $250</p>                 
+                  <p class="precio">Mediana: $250</p>                 
+                  <p class="precio">Grande$250</p>   
+                </div>
+              </div>
+          </div>
+          <div class="col-12 col-md-3 col-lg-3 py-3">
+              <div class="card">
+                <img src="/img/PIZA.jpg" class="card-img-top" alt="pizza1">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text-center">Some quick example text to build on the card title and make.</p>    
+                  <p class="precio">Chica: $250</p>                
+                  <p class="precio">Mediana: $250</p>                 
+                  <p class="precio">Grande$250</p>   
+                </div>
+              </div>
+          </div>
+          <div class="col-12 col-md-3 col-lg-3 py-3">
+              <div class="card">
+                <img src="/img/PIZA.jpg" class="card-img-top" alt="pizza1">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text-center">Some quick example text to build on the card title and make.</p>    
+                  <p class="precio">Chica: $250</p>                 
+                  <p class="precio">Mediana: $250</p>                 
+                  <p class="precio">Grande$250</p>   
+                </div>
+              </div>
+          </div>
+        </div>
+        <div  class="row mt-4">
+          <div class="col-12 col-md-3 col-lg-3 py-3">
+              <div class="card">
+                <img src="/img/PIZA.jpg" class="card-img-top" alt="pizza1">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text-center">Some quick example text to build on the card title and make.</p>    
+                  <p class="precio">Chica: $250</p>                  
+                  <p class="precio">Mediana: $250</p>                  
+                  <p class="precio">Grande$250</p>   
+                </div>
+              </div>
+          </div>
+          <div class="col-12 col-md-3 col-lg-3 py-3">
+              <div class="card">
+                <img src="/img/PIZA.jpg" class="card-img-top" alt="pizza1">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text-center">Some quick example text to build on the card title and make.</p>    
+                  <p class="precio">Chica: $250</p>                
+                  <p class="precio">Mediana: $250</p>                
+                  <p class="precio">Grande$250</p>     
+                </div>
+              </div>
+          </div>
+          <div class="col-12 col-md-3 col-lg-3 py-3">
+              <div class="card">
+                <img src="/img/PIZA.jpg" class="card-img-top" alt="pizza1">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text-center">Some quick example text to build on the card title and make.</p>    
+                  <p class="precio">Chica: $250</p>                 
+                  <p class="precio">Mediana: $250</p>                
+                  <p class="precio">Grande$250</p>   
+                </div>
+              </div>
+          </div>
+          <div class="col-12 col-md-3 col-lg-3 py-3">
+              <div class="card">
+                <img src="/img/PIZA.jpg" class="card-img-top" alt="pizza1">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text-center">Some quick example text to build on the card title and make.</p>    
+                  <p class="precio">Chica: $250</p>                  
+                  <p class="precio">Mediana: $250</p>                 
+                  <p class="precio">Grande$250</p>             
+                </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div id="pizzaNesas" class="container text-center mt-5">
+    <h3 class="display-6"><ins>Pizzanesas</ins></h3>
+      <div  class="row mt-4">
+        <div class="col-12 col-md-3 col-lg-3 py-3">
+            <div class="card">
+              <img src="/img/PIZA.jpg" class="card-img-top" alt="pizza1">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text-center">Some quick example text to build on the card title and make.</p>    
+                <p class="precio">Chica: $250</p> 
+                <p class="precio">Mediana: $250</p> 
+                <p class="precio">Grande$250</p>   
+              </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-3 col-lg-3 py-3">
+            <div class="card">
+              <img src="/img/PIZA.jpg" class="card-img-top" alt="pizza1">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text-center">Some quick example text to build on the card title and make.</p>    
+                <p class="precio">Chica: $250</p> 
+                <p class="precio">Mediana: $250</p> 
+                <p class="precio">Grande$250</p>   
+              </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-3 col-lg-3 py-3">
+            <div class="card">
+              <img src="/img/PIZA.jpg" class="card-img-top" alt="pizza1">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text-center">Some quick example text to build on the card title and make.</p>    
+                <p class="precio">Chica: $250</p> 
+                <p class="precio">Mediana: $250</p> 
+                <p class="precio">Grande$250</p>   
+              </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-3 col-lg-3 py-3">
+            <div class="card">
+              <img src="/img/PIZA.jpg" class="card-img-top" alt="pizza1">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text-center">Some quick example text to build on the card title and make.</p>    
+                <p class="precio">Chica: $250</p>
+                <p class="precio">Mediana: $250</p> 
+                <p class="precio">Grande$250</p>    
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div id="fritters" class="container text-center mt-5">
+      <h3 class="display-6"><ins>Fritters</ins></h3>
+        <div  class="row mt-4">
+          <div class="col-12 col-md-3 col-lg-3 py-3">
+              <div class="card">
+                <img src="/img/PIZA.jpg" class="card-img-top" alt="pizza1">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text-center">Some quick example text to build on the card title and make.</p>    
+                  <p class="precio">Chica: $250</p> 
+                  <p class="precio">Mediana: $250</p> 
+                  <p class="precio">Grande$250</p>   
+                </div>
+              </div>
+          </div>
+          <div class="col-12 col-md-3 col-lg-3 py-3">
+              <div class="card">
+                <img src="/img/PIZA.jpg" class="card-img-top" alt="pizza1">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text-center">Some quick example text to build on the card title and make.</p>    
+                  <p class="precio">Chica: $250</p> 
+                  <p class="precio">Mediana: $250</p> 
+                  <p class="precio">Grande$250</p>   
+                </div>
+              </div>
+          </div>
+          <div class="col-12 col-md-3 col-lg-3 py-3">
+              <div class="card">
+                <img src="/img/PIZA.jpg" class="card-img-top" alt="pizza1">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text-center">Some quick example text to build on the card title and make.</p>    
+                  <p class="precio">Chica: $250</p> 
+                  <p class="precio">Mediana: $250</p> 
+                  <p class="precio">Grande$250</p>   
+                </div>
+              </div>
+          </div>
+          <div class="col-12 col-md-3 col-lg-3 py-3">
+              <div class="card">
+                <img src="/img/PIZA.jpg" class="card-img-top" alt="pizza1">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text-center">Some quick example text to build on the card title and make.</p>    
+                  <p class="precio">Chica: $250</p>
+                  <p class="precio">Mediana: $250</p> 
+                  <p class="precio">Grande$250</p>    
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+  <div id="sandwiches" class="container text-center mt-5">
+    <h3 class="display-6"><ins>Sandwiches</ins></h3>
+      <div  class="row mt-4">
+        <div class="col-12 col-md-4 col-lg-4 py-3">
+            <div class="card">
+              <img src="/img/PIZA.jpg" class="card-img-top" alt="pizza1">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text-center">Some quick example text to build on the card title and make.</p>    
+                <p class="precio">Chica: $250</p> 
+                <p class="precio">Mediana: $250</p> 
+                <p class="precio">Grande$250</p>    
+              </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-4 col-lg-4 py-3">
+            <div class="card">
+              <img src="/img/PIZA.jpg" class="card-img-top" alt="pizza1">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text-center">Some quick example text to build on the card title and make.</p>    
+                <p class="precio">Chica: $250</p> 
+                <p class="precio">Mediana: $250</p> 
+                <p class="precio">Grande$250</p>   
+              </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-4 col-lg-4 py-3">
+            <div class="card">
+              <img src="/img/PIZA.jpg" class="card-img-top" alt="pizza1">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text-center">Some quick example text to build on the card title and make.</p>    
+                <p class="precio">Chica: $250</p> 
+                <p class="precio">Mediana: $250</p> 
+                <p class="precio">Grande$250</p>   
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div id="bebidas" class="container text-center mt-5">
+      <h3 class="display-6"><ins>Bebidas sin Alcohol</ins></h3>
+        <div  class="row mt-4">
+          <div class="col-12 col-md-3 col-lg-3 py-3">
+              <div class="card">
+                <img src="/img/PIZA.jpg" class="card-img-top" alt="pizza1">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text-center">Some quick example text to build on the card title and make.</p>    
+                  <p class="precio">Chica: $250</p> 
+                  <p class="precio">Mediana: $250</p> 
+                  <p class="precio">Grande$250</p>   
+                </div>
+              </div>
+          </div>
+          <div class="col-12 col-md-3 col-lg-3 py-3">
+              <div class="card">
+                <img src="/img/PIZA.jpg" class="card-img-top" alt="pizza1">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text-center">Some quick example text to build on the card title and make.</p>    
+                  <p class="precio">Chica: $250</p> 
+                  <p class="precio">Mediana: $250</p> 
+                  <p class="precio">Grande$250</p>   
+                </div>
+              </div>
+          </div>
+          <div class="col-12 col-md-3 col-lg-3 py-3">
+              <div class="card">
+                <img src="/img/PIZA.jpg" class="card-img-top" alt="pizza1">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text-center">Some quick example text to build on the card title and make.</p>    
+                  <p class="precio">Chica: $250</p> 
+                  <p class="precio">Mediana: $250</p> 
+                  <p class="precio">Grande$250</p>   
+                </div>
+              </div>
+          </div>
+          <div class="col-12 col-md-3 col-lg-3 py-3">
+              <div class="card">
+                <img src="/img/PIZA.jpg" class="card-img-top" alt="pizza1">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text-center">Some quick example text to build on the card title and make.</p>    
+                  <p class="precio">Chica: $250</p> 
+                  <p class="precio">Mediana: $250</p> 
+                  <p class="precio">Grande$250</p>      
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div id="vinos" class="container text-center mt-5">
+        <h3 class="display-6"><ins>Vinos</ins></h3>
+          <div  class="row mt-4">
+            <div class="col-12 col-md-3 col-lg-3 py-3">
+                <div class="card">
+                  <img src="/img/PIZA.jpg" class="card-img-top" alt="pizza1">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text-center">Some quick example text to build on the card title and make.</p>    
+                    <p class="precio">Chica: $250</p> 
+                    <p class="precio">Mediana: $250</p> 
+                    <p class="precio">Grande$250</p>   
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 col-lg-3 py-3">
+                <div class="card">
+                  <img src="/img/PIZA.jpg" class="card-img-top" alt="pizza1">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text-center">Some quick example text to build on the card title and make.</p>    
+                    <p class="precio">Chica: $250</p> 
+                    <p class="precio">Mediana: $250</p> 
+                    <p class="precio">Grande$250</p>   
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 col-lg-3 py-3">
+                <div class="card">
+                  <img src="/img/PIZA.jpg" class="card-img-top" alt="pizza1">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text-center">Some quick example text to build on the card title and make.</p>    
+                    <p class="precio">Chica: $250</p> 
+                    <p class="precio">Mediana: $250</p> 
+                    <p class="precio">Grande$250</p>   
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 col-lg-3 py-3">
+                <div class="card">
+                  <img src="/img/PIZA.jpg" class="card-img-top" alt="pizza1">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text-center">Some quick example text to build on the card title and make.</p>    
+                    <p class="precio">Chica: $250</p>
+                    <p class="precio">Mediana: $250</p> 
+                    <p class="precio">Grande$250</p>    
+                  </div>
+                </div>
             </div>
           </div>
         </div>
-         <div class="container">
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="img/PIZA.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <p class="precio">$250</p> 
+      <div id="cervezas" class="container text-center mt-5">
+        <h3 class="display-6"><ins>Cervezas</ins></h3>
+          <div  class="row mt-4">
+            <div class="col-12 col-md-3 col-lg-3 py-3">
+                <div class="card">
+                  <img src="/img/PIZA.jpg" class="card-img-top" alt="pizza1">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text-center">Some quick example text to build on the card title and make.</p>    
+                    <p class="precio">Chica: $250</p> 
+                    <p class="precio">Mediana: $250</p> 
+                    <p class="precio">Grande$250</p>   
+                  </div>
+                </div>
             </div>
-          </div>
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="img/PIZA.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p> 
-              <p class="precio">$250</p>    
+            <div class="col-6 col-md-3 col-lg-3 py-3">
+                <div class="card">
+                  <img src="/img/PIZA.jpg" class="card-img-top" alt="pizza1">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text-center">Some quick example text to build on the card title and make.</p>    
+                    <p class="precio">Chica: $250</p> 
+
+                    <p class="precio">Mediana: $250</p> 
+
+                    <p class="precio">Grande$250</p>   
+                  </div>
+                </div>
             </div>
-          </div>
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="img/PIZA.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p> 
-              <p class="precio">$250</p>    
+            <div class="col-12 col-md-3 col-lg-3 py-3">
+                <div class="card">
+                  <img src="/img/PIZA.jpg" class="card-img-top" alt="pizza1">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text-center">Some quick example text to build on the card title and make.</p>    
+                    <p class="precio">Chica: $250</p> 
+                    <p class="precio">Mediana: $250</p> 
+                    <p class="precio">Grande$250</p>   
+                  </div>
+                </div>
             </div>
-          </div>
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="img/PIZA.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>  
-              <p class="precio">$250</p>          
+            <div class="col-12 col-md-3 col-lg-3 py-3">
+                <div class="card">
+                  <img src="/img/PIZA.jpg" class="card-img-top" alt="pizza1">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text-center">Some quick example text to build on the card title and make.</p>    
+                    <p class="precio">Chica: $250</p> 
+                    <p class="precio">Mediana: $250</p> 
+                    <p class="precio">Grande$250</p>        
+                  </div>
+                </div>
             </div>
           </div>
         </div>
-          <div id="clasicas">
-              <h3><ins>PIZZAS CLASICAS</ins></h3>
-              <hr>        
-          </div>  
-          <div class="container">
-            <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="img/PIZA.jpg" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <p class="precio">$250</p> 
+    <div id="postres" class="container text-center mt-5">
+      <h3 class="display-6"><ins>Postres</ins></h3>
+        <div  class="row mt-4">
+          <div class="col-12 col-md-3 col-lg-3 py-3">
+              <div class="card">
+                <img src="/img/PIZA.jpg" class="card-img-top" alt="pizza1">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text-center">Some quick example text to build on the card title and make.</p>    
+                  <p class="precio">Chica: $250</p> 
+                  <p class="precio">Mediana: $250</p> 
+                  <p class="precio">Grande$250</p>   
+                </div>
               </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="img/PIZA.jpg" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p> 
-                <p class="precio">$250</p>    
-              </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="img/PIZA.jpg" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p> 
-                <p class="precio">$250</p>    
-              </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="img/PIZA.jpg" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>  
-                <p class="precio">$250</p>          
-              </div>
-            </div>
           </div>
-          <div class="container">
-            <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="img/PIZA.jpg" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <p class="precio">$250</p> 
+          <div class="col-12 col-md-3 col-lg-3 py-3">
+              <div class="card">
+                <img src="/img/PIZA.jpg" class="card-img-top" alt="pizza1">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text-center">Some quick example text to build on the card title and make.</p>    
+                  <p class="precio">Chica: $250</p> 
+                  <p class="precio">Mediana: $250</p> 
+                  <p class="precio">Grande$250</p>   
+                </div>
               </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="img/PIZA.jpg" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p> 
-                <p class="precio">$250</p>    
-              </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="img/PIZA.jpg" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p> 
-                <p class="precio">$250</p>    
-              </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="img/PIZA.jpg" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>  
-                <p class="precio">$250</p>          
-              </div>
-            </div>
           </div>
-          <div id="sandwiches">
-              <h3><ins>SANDWICHES</ins></h3>
-              <hr>
+          <div class="col-12 col-md-3 col-lg-3 py-3">
+              <div class="card">
+                <img src="/img/PIZA.jpg" class="card-img-top" alt="pizza1">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text-center">Some quick example text to build on the card title and make.</p>    
+                  <p class="precio">Chica: $250</p> 
+                  <p class="precio">Mediana: $250</p> 
+                  <p class="precio">Grande$250</p>   
+                </div>
+              </div>
           </div>
-          <div id="boxSand" class="container">
-            <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="img/PIZA.jpg" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <p class="precio">$250</p> 
+          <div class="col-12 col-md-3 col-lg-3 py-3">
+              <div class="card">
+                <img src="/img/PIZA.jpg" class="card-img-top" alt="pizza1">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text-center">Some quick example text to build on the card title and make.</p>    
+                  <p class="precio">Chica: $250</p>
+                  <p class="precio">Mediana: $250</p> 
+                  <p class="precio">Grande$250</p>    
+                </div>
               </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="img/PIZA.jpg" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p> 
-                <p class="precio">$250</p>    
-              </div>
-            </div>
           </div>
-          <div id="bebidas">
-              <h3><ins>BEBIDAS SIN ALCOHOL</ins></h3>
-              <hr>
-          </div>
-          <div class="container">
-            <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="img/PIZA.jpg" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <p class="precio">$250</p> 
-              </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="img/PIZA.jpg" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p> 
-                <p class="precio">$250</p>    
-              </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="img/PIZA.jpg" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p> 
-                <p class="precio">$250</p>    
-              </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="img/PIZA.jpg" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>  
-                <p class="precio">$250</p>          
-              </div>
-            </div>
-          </div>
-          <div id="cervezas">
-              <h3><ins>CERVEZAS</ins></h3>
-              <hr>
-          </div>  
-          <div class="container">
-            <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="img/PIZA.jpg" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <p class="precio">$250</p> 
-              </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="img/PIZA.jpg" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p> 
-                <p class="precio">$250</p>    
-              </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="img/PIZA.jpg" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p> 
-                <p class="precio">$250</p>    
-              </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="img/PIZA.jpg" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>  
-                <p class="precio">$250</p>          
-              </div>
-            </div>
-          </div>
-          <div id="postres">
-              <h3><ins>POSTRES</ins></h3>
-              <hr>
-          </div>
-          <div class="container">
-            <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="img/PIZA.jpg" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <p class="precio">$250</p> 
-              </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="img/PIZA.jpg" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p> 
-                <p class="precio">$250</p>    
-              </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="img/PIZA.jpg" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p> 
-                <p class="precio">$250</p>    
-              </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="img/PIZA.jpg" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>  
-                <p class="precio">$250</p>          
-              </div>
-            </div>
-          </div>
-      <footer> 
-          <div class="boxFooter">
+        </div>
+      </div>
+    
+          
+              
+<footer> 
+    <div class="boxFooter">
               <img id="imgFooter" src="/img/El Mon_Logotipo FINAL-02.png" alt="">
+              <img id="logoImperial" src="/img/logoImperial.png" alt="">
+              
           <nav>          
-            <p class="h2"><ins>Nuestras Redes</ins></p>
+            <p class="h2"><ins>Encontranos en las redes</ins></p>
               <ul class="redes">
                 <li><a href="https://m.facebook.com/login/?locale=es_ES" class="facebook"> <img style="width: 50px; height: 50px;" src="img/whatsapp.png"></a></li>
                 <li><a href="https://m.facebook.com/login/?locale=es_ES" class="facebook"> <img style="width: 50px; height: 50px;" src="img/facebook (1).png"></a></li>
@@ -326,11 +638,8 @@
       <P class="h6">Lunes a Domingos de 20:00 a 00:00 Hs</P>
       <p class="text-uppercase h5"><ins>contactanos</ins></p>
       <a href="https://www.gmail.com"><p class="h6">Elmonpizzas@gmail.com</p></a>
-    </div>
-  
-    </footer>
-
-
+    </div> 
+</footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

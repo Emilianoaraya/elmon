@@ -1,29 +1,43 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; }
-  
+    box-sizing: border-box; 
+  }
+  /*FUENTES*/
+    @font-face {
+      font-family: fuente;
+      src: url('Gill-Sans-Font-Family/Gill\ Sans\ Light.otf');
+    }
+    @font-face {
+      font-family: fuenteDos;
+      src: url('bebas_neue/BebasNeue-Regular.ttf');
+    }
+
+
   /*  GLOBALES DE ETIQUETA  */
   html {
     scroll-behavior: smooth;
-    font-family: 'Roboto', sans-serif; }
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+    /* font-family: 'Roboto', sans-serif; } */
   
-    div[id]{
-      scroll-margin-top: 60px;
-    }
+  div[id]{
+    scroll-margin-top: 60px;
+  }
+
   body {
-   
+   font-family: fuenteDos;
     background-image: url(/img/fondo.jpg);
     background-size: cover;
     background-position: center center;
-   background-attachment: fixed;
-  
+    background-attachment: fixed;
   
   }
   h2{
     letter-spacing: 3px;
   }
- 
+ .beb{
+  word-wrap: break-word;
+ }
   h3{
    
     font-size: 25px;
@@ -37,58 +51,9 @@
     width: 100%;
     color: #ffffff;
     text-align: center;
-    
-
-  }
-
-  p{
-    margin-bottom: 18px;
-      font-size: 11px;
-      line-height: 1.2;
-      color: floralwhite;
-      text-align: center;
-  }
- 
-
-       /* CLASES*/
-
-  .container{
-    width: 100%;
-    display: flex;
-    background-image: url(/img/huica1e93b51910d27c05f4cd363ec11787.jpg);
-    background-attachment: fixed;
-    background-position: center;
-  }
-  .card{
-    width: 100%;
-    height: 50%;
-    margin: 20px;
-    border-radius: 3px;
-    background-color: black;
+    text-transform: uppercase;
     
   }
-  .card-text{
-    padding: 15px;
-    text-align: center;
-  }
-
-  .card-img-top{
-    height: 250px;
-  }
-
-
-  .precio{
-    font-size: 25px;
-    color: rgb(238, 144, 49);
-    text-align: center;
-  }
-
-/*SANDWINCH*/
-
-#boxSand{
-  justify-content: space-evenly;
-}
-
 
   h4{
     font-size: 23px;
@@ -101,40 +66,94 @@
     color: rgb(241, 240, 239);
     text-align: center;
   }
-header{
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 100%;
-  background-image: url(/img/huica1e93b51910d27c05f4cd363ec11787.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed ; 
-}
+
+  p{
+    margin-bottom: 18px;
+      font-size: 11px;
+      line-height: 1.2;
+      color: floralwhite;
+      text-align: center;
+  }
+ 
+  header{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-image: url(/img/huica1e93b51910d27c05f4cd363ec11787.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed ; 
+  }
+
+       /* CLASES*/
+ 
+   
+.btn{
+  width: 120px;
+  height: 32px;
+    border-radius: 40px;
+    border-color: #fefefe;
+    color: #000000;
+    background-color: rgb(238, 144, 49) ;
+  }
+.card{
+   
+  
+    border-radius: 3px;
+    background-color: black;
+
+    
+  } 
+
+.card-text{
+    padding: 15px;
+    text-align: center;
+  } 
+
+
+
+
+.precio{
+    font-size: 15px;
+    color: rgb(238, 144, 49);
+    text-align: center;
+  } 
+.display-6{
+    border-radius: 1px;
+    border-style: solid;
+    border-color: #ec763f ;
+  }
 
 .alinear{
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 
-}
+  }
 .logo{
- 
-  display: flex;
-  box-sizing: border-box;
-  flex-direction: column;
-  height: auto;
-  width: 50%;
-  margin: auto;
-  transition: linear 4s;
-  animation-duration: 4s;
-  animation-name: aparecer; 
+  
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    height: auto;
+    width: 50%;
+    margin: auto;
+    transition: linear 4s;
+    animation-duration: 4s;
+    animation-name: aparecer; 
+  }
+
+.logoSponsor{
+  position: absolute;
+  top: 60%;
+  width: 20%;
 }
-
-
 /*FOOTER*/
 footer{
   background-color: transparent;
+  position: relative;
 
 }
 .boxFooter{
@@ -146,6 +165,7 @@ nav{
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-size: 1vh;
 }
 h2{
   color: #ffffff;
@@ -226,6 +246,12 @@ ul div {
 #imgFooter{
   width: 50%;
   height: 50%;
+
+}
+#logoImperial{
+  width: 20%;
+  position: absolute;
+  right: 40%;
 }
 .redes li a{
   width: auto;
@@ -245,4 +271,76 @@ ul div {
   line-height: 1.4;
   width: 100%;
   text-align: center;
+}
+
+
+/*RESPONSIVE*/
+
+@media screen and (max-width: 575px){
+ header{
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   background-attachment: initial;
+ }
+ .alinear{
+   margin-bottom: 100px;
+ }
+ .logo{
+   width: 100%;
+ }
+ footer{
+   position: relative;
+ }
+ .boxFooter{
+   display: flex;
+   flex-direction: column;
+ }
+ #imgFooter{
+   width: 80%;
+ }
+ nav{
+   margin-bottom: 50px;
+ }
+ h2{
+   letter-spacing: 2px
+ }
+#logoImperial{
+  width: 25%;
+  position: absolute;
+  right: 37%;
+  top: 35%;
+  
+}
+.logoSponsor{
+  width: 40%;
+  position: absolute;
+  top: 58%;
+}
+}
+
+
+
+@media screen and (min-width: 576px) and (max-width: 767px){
+  header{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: initial;
+  }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+  header{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: initial;
+  }
+  #btnBebida{
+   word-wrap: break-word;
+   padding: 4px 1px 0px 1px ;
+   }
+   
 }
