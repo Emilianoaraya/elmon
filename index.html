@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Disfruta de toda nuestra carta de pizzas a la piedra, recorriendo los distintos sabores del mundo">
     <meta name="keywords" content="pizzeria, food, fritters, delivery, calidad, sabores">
-    <title>El Mon</title> 
+    <title>El Mon | Pizzas Food Fritters</title>  
     <link rel="icon" type="image/png" href="img/El Mon_Logotipo FINAL-02.png">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script> 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous"> 
-  
-    <link rel="stylesheet" href="style.css">   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">     
+    <link rel="stylesheet" href="style.css">  
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
   <header>
@@ -20,1184 +20,974 @@
           <img class="logoSponsor" src="/img/logoImperialDos.png" alt="">
         </div>
   </header>
-    <div class="menuNav">
-        <div class="item"><a class="btn btn-outline-dark btn-sm" href="#clasicas" role="button">Pizzas Tradicionales</a></div>
-        <div class="item"><a class="btn btn-outline-dark btn-sm" href="#elmon" role="button">Pizzas El Mon</a></div>
-        <div class="item"><a class="btn btn-outline-dark btn-sm" href="#4estaciones" role="button">Pizzas 4 Estaciones</a></div>
-        <div class="item"><a class="btn btn-outline-dark btn-sm" href="#faina" role="button">Faina</a></div>
-        <div class="item"><a class="btn btn-outline-dark btn-sm" href="#rellenas" role="button">Rellenas</a></div>
-        <div class="item"><a class="btn btn-outline-dark btn-sm" href="#calzones" role="button">Calzones</a></div>
-        <div class="item"><a class="btn btn-outline-dark btn-sm" href="#empanadas" role="button">Empanadas</a></div>
-        <div class="item"><a class="btn btn-outline-dark btn-sm" href="#canastitas" role="button">Canastitas</a></div> 
-        <div class="item"><a class="btn btn-outline-dark btn-sm" href="#fritters" role="button">Fritters</a></div>
-        <div class="item"><a class="btn btn-outline-dark btn-sm" href="#postres" role="button">Postres</a></div>
-        <div class="item"><a id="btnBebida" class="btn btn-outline-dark btn-sm" href="#bebidas" role="button">Bebidas Sin Alcohol</a></div>
-        <div class="item"><a class="btn btn-outline-dark btn-sm" href="#cervezas" role="button">Cervezas</a></div>
-        <div class="item"><a class="btn btn-outline-dark btn-sm" href="#espumantes" role="button">Espumantes</a></div>
-        <div class="item"><a class="btn btn-outline-dark btn-sm" href="#vinos" role="button">Vinos</a></div>
-        <div class="item"><a class="btn btn-outline-dark btn-sm" href="#espirituosas" role="button">Bebidas Espirituosas</a></div>
-        <div class="item"><a class="btn btn-outline-dark btn-sm" href="#tragos" role="button">Tragos</a></div>
-        
-    </div>
-    <div id="clasicas" class="container text-center mt-5">
-      <h3 class="display-6">Pizzas Tradiconales</h3>
+      <div class="menuNav">
+          <div class="item"><a class="btn btn-outline-dark btn-sm" href="#clasicas" role="button">Pizzas Tradicionales</a></div>
+          <div class="item"><a class="btn btn-outline-dark btn-sm" href="#elmon" role="button">Pizzas El Mon</a></div>
+          <div class="item"><a class="btn btn-outline-dark btn-sm" href="#4estaciones" role="button">Pizzas 4 Estaciones</a></div>
+          <div class="item"><a class="btn btn-outline-dark btn-sm" href="#faina" role="button">Faina</a></div>
+          <div class="item"><a class="btn btn-outline-dark btn-sm" href="#rellenas" role="button">Rellenas</a></div>
+          <div class="item"><a class="btn btn-outline-dark btn-sm" href="#calzones" role="button">Calzones</a></div>
+          <div class="item"><a class="btn btn-outline-dark btn-sm" href="#empanadas" role="button">Empanadas</a></div>
+          <div class="item"><a class="btn btn-outline-dark btn-sm" href="#canastitas" role="button">Canastitas</a></div> 
+          <div class="item"><a class="btn btn-outline-dark btn-sm" href="#fritters" role="button">Fritters</a></div>
+          <div class="item"><a class="btn btn-outline-dark btn-sm" href="#postres" role="button">Postres</a></div>
+          <div class="item"><a id="btnBebida" class="btn btn-outline-dark btn-sm" href="#bebidas" role="button">Bebidas Sin Alcohol</a></div>
+          <div class="item"><a class="btn btn-outline-dark btn-sm" href="#cervezas" role="button">Cervezas</a></div>
+          <div class="item"><a class="btn btn-outline-dark btn-sm" href="#espumantes" role="button">Espumantes</a></div>
+          <div class="item"><a class="btn btn-outline-dark btn-sm" href="#vinos" role="button">Vinos</a></div>
+          <div class="item"><a class="btn btn-outline-dark btn-sm" href="#tragos" role="button">Tragos</a></div>      
+      </div>
+      <div id="clasicas" class="container text-center mt-5">
+        <div data-aos="fade-down"data-aos-easing="linear"data-aos-duration="1500">
+          <h3 class="display-6" >Pizzas Tradiconales</h3>
+        </div>
         <div  class="row mt-4">
           <div class="col-12 col-md-3 col-lg-3 py-3">
-            <div class="card">
-              <img src="/img/1MuzzaTradicional.png" class="card-img-top" alt="PizzaMuzza">
-              <div class="card-body">
-                <h5 class="card-title">Muzzarella</h5>
-                <p class="card-text-center">Salsa de tomate natural con ajo, albahaca y especias ahumadas, 300 gr de queso mozzarella, aceitunas verdes carnosas y orégano.</p>    
-                <p class="precio">Chica: $600</p>                                   
-                <p class="precio">Grande: $1000</p>   
-              </div>
-            </div>
-        </div>
-      <div class="col-12 col-md-3 col-lg-3 py-3">
-        <div class="card">
-          <img src="/img/2NapoTradicional.png" class="card-img-top" alt="pizzaNapolitana">
-          <div class="card-body">
-            <h5 class="card-title">Napolitana</h5>
-            <p class="card-text-center">Salsa de tomate, queso mozzarella, finas rodajas de tomate, provenzal fresco, aceitunas verdes y orégano.</p>    
-            <p class="precio">Chica: $720</p>                                
-            <p class="precio">Grande: $1200</p>   
-          </div>
-        </div>
-    </div>
-      <div class="col-12 col-md-3 col-lg-3 py-3">
-          <div class="card">
-            <img src="/img/3NapoEspTradicional.png" class="card-img-top" alt="pizzaNapoEsp">
-            <div class="card-body">
-              <h5 class="card-title">Napolitana especial</h5>
-              <p class="card-text-center">Salsa de tomate, queso mozzarella, jamón cocido natural en fetas, finas rodajas de tomate, provenzal fresco, aceitunas verdes y orégano.</p>    
-              <p class="precio">Chica: $840</p>                                  
-              <p class="precio">Grande: $1400</p>   
-            </div>
-          </div>
-      </div>
-      <div class="col-12 col-md-3 col-lg-3 py-3">
-          <div class="card">
-            <img src="/img/4CalaTradicional.png" class="card-img-top" alt="pizzaCalabresa">
-            <div class="card-body">
-              <h5 class="card-title">Calabresa</h5>
-              <p class="card-text-center">Salsa de tomate natural, queso mozzarella, rodajas de longaniza calabresa, finas lonjas de morrón asado, orégano y aceitunas verdes.</p>    
-              <p class="precio">Chica: $900</p>                                 
-              <p class="precio">Grande: $1500</p>   
-            </div>
-          </div>
-      </div>
-      <div class="col-12 col-md-3 col-lg-3 py-3">
-        <div class="card">
-          <img src="/img/13CapreseTradicional.png" class="card-img-top" alt="pizzaCaprese">
-          <div class="card-body">
-            <h5 class="card-title">Caprese</h5>
-            <p class="card-text-center">Salsa de tomate, queso mozzarella, tomates Cherry, hojas de albahaca y aceitunas negras.</p>    
-            <p class="precio">Chica: $840</p>                               
-            <p class="precio">Grande: $1400</p>   
-          </div>
-        </div>
-    </div>
-    <div class="col-12 col-md-3 col-lg-3 py-3">
-      <div class="card">
-        <img src="/img" class="card-img-top" alt="pizzaRoquefort">
-        <div class="card-body">
-          <h5 class="card-title">Roquefort</h5>
-          <p class="card-text-center">Muzzarella y roquefort</p>    
-          <p class="precio">Chica: $900</p>                            
-          <p class="precio">Grande: $1500</p>   
-        </div>
-      </div>
-  </div>
-  <div class="col-12 col-md-3 col-lg-3 py-3">
-    <div class="card">
-      <img src="/img" class="card-img-top" alt="pizzaProvolone">
-      <div class="card-body">
-        <h5 class="card-title">Provolone</h5>
-        <p class="card-text-center">Muzzarella y provolone</p>    
-        <p class="precio">Chica: $900</p>                            
-        <p class="precio">Grande: $1500</p>   
-      </div>
-    </div>
-</div>
-<div class="col-12 col-md-3 col-lg-3 py-3">
-  <div class="card">
-    <img src="/img/10PrimaTradicional.png" class="card-img-top" alt="pizzaPrimavera">
-    <div class="card-body">
-      <h5 class="card-title">Primavera</h5>
-      <p class="card-text-center">Salsa de tomate, queso mozzarella, rodajas de tomate, jamón cocido natural, huevo rallado, orégano y aceitunas verdes.</p>    
-      <p class="precio">Chica: $840</p>                                
-      <p class="precio">Grande: $1400</p>   
-    </div>
-  </div>
-</div>
-      <div class="col-12 col-md-3 col-lg-3 py-3">
-          <div class="card">
-            <img src="/img/5JamonTradicional.png" class="card-img-top" alt="pizzaJamon">
-            <div class="card-body">
-              <h5 class="card-title">Jamón</h5>
-              <p class="card-text-center">Salsa de tomate natural, queso mozzarella, 200 gramos de jamón cocido natural premium, orégano y aceitunas verdes.</p>    
-              <p class="precio">Chica: $720</p>                                  
-              <p class="precio">Grande: $1200</p>   
-            </div>
-          </div>
-      </div>
-    </div>
-    <div  class="row mt-4">
-      <div class="col-12 col-md-3 col-lg-3 py-3">
-          <div class="card">
-            <img src="/img/6JmTradiconal.png" class="card-img-top" alt="pizzaJamonMorron">
-            <div class="card-body">
-              <h5 class="card-title">Jamón y Morrones</h5>
-              <p class="card-text-center">Salsa de tomate natural, queso mozzarella, 200 gramos de jamón cocido natural premium, gruesas lonjas de morrón asado, orégano y aceitunas verdes.</p>    
-              <p class="precio">Chica: $840</p>                                    
-              <p class="precio">Grande: $1400</p>   
-            </div>
-          </div>
-      </div>
-      <div class="col-12 col-md-3 col-lg-3 py-3">
-          <div class="card">
-            <img src="/img/7FuggaTradicional.png" class="card-img-top" alt="pizzaFugazza">
-            <div class="card-body">
-              <h5 class="card-title">Fugazza</h5>
-              <p class="card-text-center">Cebolla blanca, aceite de oliva saborizado, finas plumas de cebolla morada, orégano y aceitunas negras.</p>    
-              <p class="precio">Chica: $600</p>                                
-              <p class="precio">Grande: $1000</p>     
-            </div>
-          </div>
-      </div>
-      <div class="col-12 col-md-3 col-lg-3 py-3">
-          <div class="card">
-            <img src="/img/8FugazzetaTradicional.png" class="card-img-top" alt="pizzaFugazzeta">
-            <div class="card-body">
-              <h5 class="card-title">Fugazzeta</h5>
-              <p class="card-text-center">Cebolla blanca, queso mozzarella, aceite de olivo y aceitunas negras.</p>    
-              <p class="precio">Chica: $720</p>                                 
-              <p class="precio">Grande: $1200</p>   
-            </div>
-          </div>
-      </div>
-      <div class="col-12 col-md-3 col-lg-3 py-3">
-          <div class="card">
-            <img src="/img/9MargaTradicional.png" class="card-img-top" alt="pizzaMargarita">
-            <div class="card-body">
-              <h5 class="card-title">Margarita</h5>
-              <p class="card-text-center">Salsa de tomate, queso mozzarella, hojas de albahaca, orégano y aceitunas y aceitunas negras.</p>    
-              <p class="precio">Chica: $660</p>                                   
-              <p class="precio">Grande: $1100</p>             
-            </div>
-          </div>
-      </div>
-      
-    <div class="col-12 col-md-3 col-lg-3 py-3">
-      <div class="card">
-        <img src="/img/11AnchoaTradicional.png" class="card-img-top" alt="pizzaAnchoa">
-        <div class="card-body">
-          <h5 class="card-title">Anchoas</h5>
-          <p class="card-text-center">Salsa de tomate, anchoas, orégano y aceitunas verdes.</p>    
-          <p class="precio">Chica: $600</p>                               
-          <p class="precio">Grande: $1000</p>   
-        </div>
-      </div>
-  </div>
-  <div class="col-12 col-md-3 col-lg-3 py-3">
-    <div class="card">
-      <img src="/img/12MixtaTradicional.png" class="card-img-top" alt="pizzaMixta">
-      <div class="card-body">
-        <h5 class="card-title">Mixta</h5>
-        <p class="card-text-center">Mitad salsa de tomate y mitad salsa y queso mozzarella, anchoas, orégano y aceitunas verdes y negras.</p>    
-        <p class="precio">Chica: $660</p>                              
-        <p class="precio">Grande: $1100</p>   
-      </div>
-    </div>
-  </div>
-  
-<div class="col-12 col-md-3 col-lg-3 py-3">
-  <div  class="card">
-    <img src="/img/14CanchaTradicional.png" class="card-img-top" alt="pizzaTradicional">
-    <div class="card-body">
-      <h5 class="card-title">Cancha</h5>
-      <p class="card-text-center">Salsa de tomate, Ajo, Ají asado, cebolla de verdeo en rodajas orégano y aceitunas verdes</p>    
-      <p class="precio">Chica: $570</p>                             
-      <p class="precio">Grande: $950</p>   
-    </div>
-  </div>
-</div>
-<div class="col-12 col-md-3 col-lg-3 py-3">
-  <div class="card">
-    <img src="/img/15PalmitoTradicional.png" class="card-img-top" alt="pizzaPalmito">
-    <div class="card-body">
-      <h5 class="card-title">Palmitos</h5>
-      <p class="card-text-center">Salsa de tomate, mozzarella, jamón cocido natural, palmitos, salsa golf y orégano.</p>    
-      <p class="precio">Chica: $900</p>                            
-      <p class="precio">Grande: $1500</p>   
-    </div>
-  </div>
-</div>
-</div>
-    <div id="elmon" class="container text-center mt-5">
-        <h3 class="display-6 style=".text-uppercase">Pizzas el mon</h3>
-          <div  class="row mt-4">
-            <div class="col-12 col-md-3 col-lg-3 py-3">
-                <div class="card">
-                  <img src="/img/16CaliforniaMon (1).png" class="card-img-top" alt="pizzaCalifornia">
-                  <div class="card-body">
-                    <h5 class="card-title">Californiana</h5>
-                    <p class="card-text-center">Salsa de Tomate, queso mozzarella, 200 gr de panceta ahumada y 4 huevos fritos, decorados con orégano y aceitunas.</p>    
-                    <p class="precio">Chica: $900</p>                                      
-                    <p class="precio">Grande: $1500</p>  
-                  </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-3 col-lg-3 py-3">
-                <div class="card">
-                  <img src="/img/17MadrilMon.png" class="card-img-top" alt="pizzaMadrid">
-                  <div class="card-body">
-                    <h5 class="card-title">Madrileña</h5>
-                    <p class="card-text-center">Salsa de Tomate, Queso mozzarella, 100 gr de jamón crudo estilo ibérico, hojas de rúcula con aceite de olivo saborizado, queso parmesano y aceitunas negras para decorar.</p>    
-                    <p class="precio">Chica: $1000</p>                                    
-                    <p class="precio">Grande: $1600</p>   
-                  </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-3 col-lg-3 py-3">
-                <div class="card">
-                  <img src="/img/18Veneziana.png" class="card-img-top" alt="pizzaVenezia">
-                  <div class="card-body">
-                    <h5 class="card-title">Veneziana</h5>
-                    <p class="card-text-center">Salsa de Tomate, queso mozzarella, 200 gr de jamón cocido natural premium, queso provolone y aceitunas.</p>    
-                    <p class="precio">Chica: $960</p>                                     
-                    <p class="precio">Grande: $1600</p>   
-                  </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-3 col-lg-3 py-3">
-                <div class="card">
-                  <img src="/img/19Gallega.png" class="card-img-top" alt="pizzaGallega">
-                  <div class="card-body">
-                    <h5 class="card-title">Gallega</h5>
-                    <p class="card-text-center">Salsa de tomate, queso mozzarella, rodajas de cantimpalo, pimentón. ahumada, cebolla caramelizada y aceitunas negras.</p>    
-                    <p class="precio">Chica: $900</p>                                      
-                    <p class="precio">Grande: $1500</p>   
-                  </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-3 col-lg-3 py-3">
-              <div class="card">
-                <img src="/img" class="card-img-top" alt="pizzaMexico">
+            <div class="card h-100">
+                <img src="/img/1MuzzaTradicional.png" class="card-img-top" alt="PizzaMuzza">
                 <div class="card-body">
-                  <h5 class="card-title">Mexicana</h5>
-                  <p class="card-text-center">250 gr de carne, salsa de tomate con Tabasco y rodajas de palta.</p>    
-                  <p class="precio">Chica: $1140</p>                                      
-                  <p class="precio">Grande: $1900</p>   
+                  <h5 class="card-title">Muzzarella</h5>
+                  <p class="card-text-center">Salsa de tomate natural con ajo, albahaca y especias ahumadas, 300 gr de queso mozzarella, aceitunas verdes carnosas y orégano.</p>    
+                  <p class="precio">Chica: $715</p>                                   
+                  <p class="precio">Grande: $1100</p>   
+                </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 col-lg-3 py-3">
+            <div class="card h-100">
+                <img src="/img/2NapoTradicional.png" class="card-img-top" alt="pizzaNapolitana">
+                <div class="card-body">
+                  <h5 class="card-title">Napolitana</h5>
+                  <p class="card-text-center">Salsa de tomate, queso mozzarella, finas rodajas de tomate, provenzal fresco, aceitunas verdes y orégano.</p>    
+                  <p class="precio">Chica: $845</p>                                
+                  <p class="precio">Grande: $1300</p>   
+                </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 col-lg-3 py-3">
+            <div class="card h-100">
+                <img src="/img/3NapoEspTradicional.png" class="card-img-top" alt="pizzaNapoEsp">
+                <div class="card-body">
+                  <h5 class="card-title">Napolitana especial</h5>
+                  <p class="card-text-center">Salsa de tomate, queso mozzarella, jamón cocido natural en fetas, finas rodajas de tomate, provenzal fresco, aceitunas verdes y orégano.</p>    
+                  <p class="precio">Chica: $975</p>                                  
+                  <p class="precio">Grande: $1500</p>   
+                </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 col-lg-3 py-3">
+            <div class="card h-100">
+                <img src="/img/4CalaTradicional.png" class="card-img-top" alt="pizzaCalabresa">
+                <div class="card-body">
+                  <h5 class="card-title">Calabresa</h5>
+                  <p class="card-text-center">Salsa de tomate natural, queso mozzarella, rodajas de longaniza calabresa, finas lonjas de morrón asado, orégano y aceitunas verdes.</p>    
+                  <p class="precio">Chica: $1040</p>                                 
+                  <p class="precio">Grande: $1600</p>   
+                </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 col-lg-3 py-3">
+            <div class="card h-100">
+                <img src="/img/13CapreseTradicional.png" class="card-img-top" alt="pizzaCaprese">
+                <div class="card-body">
+                  <h5 class="card-title">Caprese</h5>
+                  <p class="card-text-center">Salsa de tomate, queso mozzarella, tomates Cherry, hojas de albahaca y aceitunas negras.</p>    
+                  <p class="precio">Chica: $975</p>                               
+                  <p class="precio">Grande: $1500</p>   
+                </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 col-lg-3 py-3">
+            <div class="card h-100">
+                <img src="/img/10PrimaTradicional.png" class="card-img-top" alt="pizzaPrimavera">
+                <div class="card-body">
+                  <h5 class="card-title">Primavera</h5>
+                  <p class="card-text-center">Salsa de tomate, queso mozzarella, rodajas de tomate, jamón cocido natural, huevo rallado, orégano y aceitunas verdes.</p>    
+                  <p class="precio">Chica: $975</p>                                
+                  <p class="precio">Grande: $1500</p>   
+                </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 col-lg-3 py-3">
+              <div class="card h-100">
+                <img src="/img/5JamonTradicional.png" class="card-img-top" alt="pizzaJamon">
+                <div class="card-body">
+                  <h5 class="card-title">Jamón</h5>
+                  <p class="card-text-center">Salsa de tomate natural, queso mozzarella, 200 gramos de jamón cocido natural premium, orégano y aceitunas verdes.</p>    
+                  <p class="precio">Chica: $845</p>                                  
+                  <p class="precio">Grande: $1300</p>   
                 </div>
               </div>
           </div>
           <div class="col-12 col-md-3 col-lg-3 py-3">
-            <div class="card">
-              <img src="/img" class="card-img-top" alt="pizzaAlemania">
+            <div class="card h-100">
+                <img src="/img/6JmTradiconal.png" class="card-img-top" alt="pizzaJamonMorron">
+                <div class="card-body">
+                  <h5 class="card-title">Jamón y Morrones</h5>
+                  <p class="card-text-center">Salsa de tomate natural, queso mozzarella, 200 gramos de jamón cocido natural premium, gruesas lonjas de morrón asado, orégano y aceitunas verdes.</p>    
+                  <p class="precio">Chica: $975</p>                                    
+                  <p class="precio">Grande: $1500</p>   
+                </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 col-lg-3 py-3">
+            <div class="card h-100">
+              <img src="/img/7FuggaTradicional.png" class="card-img-top" alt="pizzaFugazza">
               <div class="card-body">
-                <h5 class="card-title">Alemana</h5>
-                <p class="card-text-center">Salsa blanca, salchichas alemanas, granos de choclo, salsa chucrut y aceitunas negras.</p>    
-                <p class="precio">Chica: $1080</p>                                      
+                <h5 class="card-title">Fugazza</h5>
+                <p class="card-text-center">Cebolla blanca, aceite de oliva saborizado, finas plumas de cebolla morada, orégano y aceitunas negras.</p>    
+                <p class="precio">Chica: $715</p>                                
+                <p class="precio">Grande: $1100</p>     
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 col-lg-3 py-3">
+            <div class="card h-100">
+              <img src="/img/8FugazzetaTradicional.png" class="card-img-top" alt="pizzaFugazzeta">
+              <div class="card-body">
+                <h5 class="card-title">Fugazzeta</h5>
+                <p class="card-text-center">Cebolla blanca, queso mozzarella, aceite de olivo y aceitunas negras.</p>    
+                <p class="precio">Chica: $845</p>                                 
+                <p class="precio">Grande: $1300</p>   
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 col-lg-3 py-3">
+            <div class="card h-100">
+              <img src="/img/9MargaTradicional.png" class="card-img-top" alt="pizzaMargarita">
+              <div class="card-body">
+                <h5 class="card-title">Margarita</h5>
+                <p class="card-text-center">Salsa de tomate, queso mozzarella, hojas de albahaca, orégano y aceitunas y aceitunas negras.</p>    
+                <p class="precio">Chica: $780</p>                                   
+                <p class="precio">Grande: $1200</p>             
+              </div>
+            </div>
+          </div>     
+          <div class="col-12 col-md-3 col-lg-3 py-3">
+            <div class="card h-100">
+              <img src="/img/11AnchoaTradicional.png" class="card-img-top" alt="pizzaAnchoa">
+              <div class="card-body">
+                <h5 class="card-title">Anchoas</h5>
+                <p class="card-text-center">Salsa de tomate, anchoas, orégano y aceitunas verdes.</p>    
+                <p class="precio">Chica: $715</p>                               
+                <p class="precio">Grande: $1100</p>   
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 col-lg-3 py-3">
+            <div class="card h-100">
+              <img src="/img/provoloneTradicional.png" class="card-img-top" alt="pizzaProvolone">
+              <div class="card-body">
+                <h5 class="card-title">Provolone</h5>
+                <p class="card-text-center">Muzzarella y provolone.</p>    
+                <p class="precio">Chica: $1040</p>                               
+                <p class="precio">Grande: $1600</p>   
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 col-lg-3 py-3">
+            <div class="card ">
+              <img src="/img/12MixtaTradicional.png" class="card-img-top" alt="pizzaMixta">
+              <div class="card-body">
+                <h5 class="card-title">Mixta</h5>
+                <p class="card-text-center">Mitad salsa de tomate y mitad salsa y queso mozzarella, anchoas, orégano y aceitunas verdes y negras.</p>    
+                <p class="precio">Chica: $780</p>                              
+                <p class="precio">Grande: $1200</p>   
+              </div>
+            </div>
+          </div> 
+          <div class="col-12 col-md-3 col-lg-3 py-3">
+            <div  class="card h-100">
+              <img src="/img/14CanchaTradicional.png" class="card-img-top" alt="pizzaTradicional">
+              <div class="card-body">
+                <h5 class="card-title">Cancha</h5>
+                <p class="card-text-center">Salsa de tomate, Ajo, Ají asado, cebolla de verdeo en rodajas orégano y aceitunas verdes</p>    
+                <p class="precio">Chica: $680</p>                             
+                <p class="precio">Grande: $1050</p>   
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 col-lg-3 py-3">
+            <div class="card h-100">
+              <img src="/img/15PalmitoTradicional.png" class="card-img-top" alt="pizzaPalmito">
+              <div class="card-body">
+                <h5 class="card-title">Palmitos</h5>
+                <p class="card-text-center">Salsa de tomate, mozzarella, jamón cocido natural, palmitos, salsa golf y orégano.</p>    
+                <p class="precio">Chica: $1040</p>                            
+                <p class="precio">Grande: $1600</p>   
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="elmon" class="container text-center mt-5">
+          <div data-aos="fade-down"data-aos-easing="linear"data-aos-duration="1500">
+            <h3 class="display-6 ">Pizzas el mon</h3>
+          </div>
+        <div  class="row mt-4">
+          <div class="col-12 col-md-4 col-lg-3 py-3">
+            <div class="card h-100">
+              <img src="/img/16CaliforniaMon (1).png" class="card-img-top" alt="pizzaCalifornia">
+              <div class="card-body">
+                <h5 class="card-title">Californiana</h5>
+                <p class="card-text-center">Salsa de Tomate, queso mozzarella, 200 gr de panceta ahumada y 4 huevos fritos, decorados con orégano y aceitunas.</p>    
+                <p class="precio">Chica: $1040</p>                                      
+                <p class="precio">Grande: $1600</p>  
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3 py-3">
+            <div class="card h-100">
+              <img src="/img/17MadrilMon.png" class="card-img-top" alt="pizzaMadrid">
+              <div class="card-body">
+                <h5 class="card-title">Madrileña</h5>
+                <p class="card-text-center">Salsa de Tomate, Queso mozzarella, 100 gr de jamón crudo estilo ibérico, hojas de rúcula con aceite de olivo saborizado, queso parmesano y aceitunas negras para decorar.</p>    
+                <p class="precio">Chica: $1170</p>                                    
                 <p class="precio">Grande: $1800</p>   
               </div>
             </div>
-        </div>
-          <div  class="row mt-4">
-            <div class="col-12 col-md-3 col-lg-3 py-3">
-                <div class="card">
-                  <img src="/img/22Hawaiana.png" class="card-img-top" alt="pizzaHawai">
-                  <div class="card-body">
-                    <h5 class="card-title">Hawaiana</h5>
-                    <p class="card-text-center">Salsa de tomate, queso mozzarella, jamón cocido natural premium, rodajas de ananá y cerezas.</p>    
-                    <p class="precio">Chica: $900</p>                                    
-                    <p class="precio">Grande: $1500</p>   
-                  </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-3 col-lg-3 py-3">
-                <div class="card">
-                  <img src="/img/23Romana.png" class="card-img-top" alt="pizzaRomana">
-                  <div class="card-body">
-                    <h5 class="card-title">Romana</h5>
-                    <p class="card-text-center">Queso mozzarella, queso Roquefort, finas plumas de cebolla aceitunas negras.</p>    
-                    <p class="precio">Chica: $960</p>                                        
-                    <p class="precio">Grande: $1600</p>   
-                  </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-3 col-lg-3 py-3">
-              <div class="card">
-                <img src="/img" class="card-img-top" alt="pizzaPortuguesa">
-                <div class="card-body">
-                  <h5 class="card-title">Portuguesa</h5>
-                  <p class="card-text-center">Pollo salteado con vegetales, panceta crocante y champiñones.</p>    
-                  <p class="precio">Chica: $1020</p>                                        
-                  <p class="precio">Grande: $1700</p>   
-                </div>
-              </div>
           </div>
-            <div class="col-12 col-md-3 col-lg-3 py-3">
-                <div class="card">
-                  <img src="/img/25Persa.png" class="card-img-top" alt="pizzaPersa">
-                  <div class="card-body">
-                    <h5 class="card-title">Persa</h5>
-                    <p class="card-text-center">Salsa blanca, queso mozzarella, espinaca y parmesano rallado.</p>    
-                    <p class="precio">Chica: $250</p>                                       
-                    <p class="precio">Grande$250</p>   
-                  </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-3 col-lg-3 py-3">
-                <div class="card">
-                  <img src="/img/26Catalana.png" class="card-img-top" alt="pizzaCatalana">
-                  <div class="card-body">
-                    <h5 class="card-title">Catalana</h5>
-                    <p class="card-text-center">Salsa de tomate, queso mozzarella, rodajas de tomate frito, hojas de albahaca, finas lonjas de jamón crudo y aceitunas.</p>    
-                    <p class="precio">Chica: $960</p>                                        
-                    <p class="precio">Grande: $1600</p>   
-                  </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-3 col-lg-3 py-3">
-              <div class="card">
-                <img src="/img" class="card-img-top" alt="pizzaOurensiana">
-                <div class="card-body">
-                  <h5 class="card-title">Ourensiana</h5>
-                  <p class="card-text-center">Finas rodajas de puerro salteadas y cocinadas en crema, finas lonjas de panceta salteada y provoleta gratinada.</p>    
-                  <p class="precio">Chica: $960</p>                                        
-                  <p class="precio">Grande: $1600</p>   
-                </div>
-              </div>
-          </div>
-          <div class="col-12 col-md-3 col-lg-3 py-3">
-            <div class="card">
-              <img src="/img" class="card-img-top" alt="pizzaMarsella">
+          <div class="col-12 col-md-4 col-lg-3 py-3">
+            <div class="card h-100">
+              <img src="/img/18Veneziana.png" class="card-img-top" alt="pizzaVenezia">
               <div class="card-body">
-                <h5 class="card-title">Marsellesa</h5>
-                <p class="card-text-center"> Queso mozzarella, Queso Roquefort, nueces y aceitunas negras.</p>    
-                <p class="precio">Chica: $900</p>                                        
-                <p class="precio">Grande: 1500</p>   
+                <h5 class="card-title">Veneziana</h5>
+                <p class="card-text-center">Salsa de Tomate, queso mozzarella, 200 gr de jamón cocido natural premium, queso provolone y aceitunas.</p>    
+                <p class="precio">Chica: $1105</p>                                     
+                <p class="precio">Grande: $1700</p>   
               </div>
             </div>
-        </div>
-            <div class="col-12 col-md-3 col-lg-3 py-3">
-              <div class="card">
-                <img src="/img/29NewYork.png" class="card-img-top" alt="pizzaNewYork">
-                <div class="card-body">
-                  <h5 class="card-title">Newyorquina</h5>
-                  <p class="card-text-center">Salsa de tomate, queso mozzarella, queso cheddar, finas lonjas de panceta, verdeo picado, barbacoa y aceitunas verdes.</p>    
-                  <p class="precio">Chica: $960</p> 
-                  <p class="precio">Grande: $1600</p>    
-                </div>
-              </div>
           </div>
-          <div class="col-12 col-md-3 col-lg-3 py-3">
-            <div class="card">
+          <div class="col-12 col-md-4 col-lg-3 py-3">
+            <div class="card h-100">
+              <img src="/img/19Gallega.png" class="card-img-top" alt="pizzaGallega">
+              <div class="card-body">
+                <h5 class="card-title">Gallega</h5>
+                <p class="card-text-center">Salsa de tomate, queso mozzarella, rodajas de cantimpalo, pimentón. ahumada, cebolla caramelizada y aceitunas negras.</p>    
+                <p class="precio">Chica: $1040</p>                                      
+                <p class="precio">Grande: $1600</p>   
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3 py-3">
+            <div class="card h-100">
+              <img src="/img/22Hawaiana.png" class="card-img-top" alt="pizzaHawai">
+              <div class="card-body">
+                <h5 class="card-title">Hawaiana</h5>
+                <p class="card-text-center">Salsa de tomate, queso mozzarella, jamón cocido natural premium, rodajas de ananá y cerezas.</p>    
+                <p class="precio">Chica: $1040</p>                                    
+                <p class="precio">Grande: $1600</p>   
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3 py-3">
+            <div class="card h-100">
+              <img src="/img/23Romana.png" class="card-img-top" alt="pizzaRomana">
+              <div class="card-body">
+                <h5 class="card-title">Romana</h5>
+                <p class="card-text-center">Queso mozzarella, queso Roquefort, finas plumas de cebolla aceitunas negras.</p>    
+                <p class="precio">Chica: $1105</p>                                        
+                <p class="precio">Grande: $1700</p>   
+              </div>
+            </div>
+          </div>   
+          <div class="col-12 col-md-4 col-lg-3 py-3">
+            <div class="card h-100">
+              <img src="/img/25Persa.png" class="card-img-top" alt="pizzaPersa">
+              <div class="card-body">
+                <h5 class="card-title">Persa</h5>
+                <p class="card-text-center">Salsa blanca, queso mozzarella, espinaca y parmesano rallado.</p>    
+                <p class="precio">Chica: $1105</p>                                       
+                <p class="precio">Grande: $1700</p>   
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3 py-3">
+            <div class="card h-100">
+              <img src="/img/26Catalana.png" class="card-img-top" alt="pizzaCatalana">
+              <div class="card-body">
+                <h5 class="card-title">Catalana</h5>
+                <p class="card-text-center">Salsa de tomate, queso mozzarella, rodajas de tomate frito, hojas de albahaca, finas lonjas de jamón crudo y aceitunas.</p>    
+                <p class="precio">Chica: $1105</p>                                        
+                <p class="precio">Grande: $1700</p>   
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3 py-3">
+            <div class="card h-100">
+              <img src="/img/27ourensiana.png" class="card-img-top" alt="pizzaOurensiana">
+              <div class="card-body">
+                <h5 class="card-title">Ourensiana</h5>
+                <p class="card-text-center">Finas rodajas de puerro salteadas y cocinadas en crema, finas lonjas de panceta salteada y provoleta gratinada.</p>    
+                <p class="precio">Chica: $1105</p>                                        
+                <p class="precio">Grande: $1700</p>   
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3 py-3">
+            <div class="card h-100">
+              <img src="/img/29NewYork.png" class="card-img-top" alt="pizzaNewYork">
+              <div class="card-body">
+                <h5 class="card-title">Newyorquina</h5>
+                <p class="card-text-center">Salsa de tomate, queso mozzarella, queso cheddar, finas lonjas de panceta, verdeo picado, barbacoa y aceitunas verdes.</p>    
+                <p class="precio">Chica: $1105</p> 
+                <p class="precio">Grande: $1700</p>    
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3 py-3">
+            <div class="card h-100">
               <img src="/img/30Rusa.png" class="card-img-top" alt="pizzaRusa1">
               <div class="card-body">
                 <h5 class="card-title">Rusa</h5>
                 <p class="card-text-center">Queso mozzarella, espinaca cocida, tomates, albahaca y 2 huevos.</p>    
-                <p class="precio">Chica: $960</p> 
+                <p class="precio">Chica: $1105</p> 
+                <p class="precio">Grande: $1700</p>    
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3 py-3">
+            <div class="card h-100">
+              <img src="/img/31Italiana.png" class="card-img-top" alt="pizzaItaliana">
+              <div class="card-body">
+                <h5 class="card-title">Italiana</h5>
+                <p class="card-text-center">Pesto, (ajo, nueces, albahaca y queso parmesano) tomates Cherry y queso mozzarella.</p>    
+                <p class="precio">Chica: $1040</p> 
                 <p class="precio">Grande: $1600</p>    
               </div>
             </div>
-        </div>
-        <div class="col-12 col-md-3 col-lg-3 py-3">
-          <div class="card">
-            <img src="/img" class="card-img-top" alt="pizzaRusa2">
-            <div class="card-body">
-              <h5 class="card-title">Rusa 2</h5>
-              <p class="card-text-center">Queso mozzarella, espinaca cocida, tomate, albahca y carne cocida y condimentada.</p>    
-              <p class="precio">Chica: $250</p> 
-              <p class="precio">Grande$250</p>    
+          </div>  
+          <div class="col-12 col-md-6 col-lg-6 py-3">
+            <div class="card h-100">
+              <img src="/img/33Brasilera.png" class="card-img-top" alt="pizzaBrasil">
+              <div class="card-body">
+                <h5 class="card-title">Brasilera</h5>
+                <p class="card-text-center">Salsa de tomate, queso mozzarella,Palmitos en rodajas y finas plumas de cebolla morada y aceitunas verdes.</p>    
+                <p class="precio">Chica: $975</p> 
+                <p class="precio">Grande: $1500</p>    
+              </div>
             </div>
-          </div>
-      </div>
-        <div class="col-12 col-md-3 col-lg-3 py-3">
-          <div class="card">
-            <img src="/img/31Italiana.png" class="card-img-top" alt="pizzaItaliana">
-            <div class="card-body">
-              <h5 class="card-title">Italiana</h5>
-              <p class="card-text-center">Pesto, (ajo, nueces, albahaca y queso parmesano) tomates Cherry y queso mozzarella.</p>    
-              <p class="precio">Chica: $900</p> 
-              <p class="precio">Grande: $1500</p>    
+          </div>    
+          <div class="col-12 col-md-6 col-lg-6 py-3">
+            <div class="card h-100">
+              <img src="/img/37Mon.png" class="card-img-top" alt="pizzaElMon">
+              <div class="card-body">
+                <h5 class="card-title">El Mon</h5>
+                <p class="card-text-center">Salsa de tomate, queso mozzarella, lomito ahumado a las hierbas, cebolla caramelizada, cebolla de verdeo y panceta ahumada crocante.</p>    
+                <p class="precio">Chica: $1105</p> 
+                <p class="precio">Grande: $1700</p>    
+              </div>
             </div>
-          </div>
-      </div>
-      <div class="col-12 col-md-3 col-lg-3 py-3">
-        <div class="card">
-          <img src="/img" class="card-img-top" alt="pizzaHomesa">
-          <div class="card-body">
-            <h5 class="card-title">Homesa</h5>
-            <p class="card-text-center">Carne picada, morrón, cebolla, ajices maserados en limón aceite sal y pimienta.</p>    
-            <p class="precio">Chica: $960</p> 
-            <p class="precio">Grande: $1600</p>    
-          </div>
-        </div>
-    </div>
-      <div class="col-12 col-md-3 col-lg-3 py-3">
-        <div class="card">
-          <img src="/img/33Brasilera.png" class="card-img-top" alt="pizzaBrasil">
-          <div class="card-body">
-            <h5 class="card-title">Brasilera</h5>
-            <p class="card-text-center">Salsa de tomate, queso mozzarella,Palmitos en rodajas y finas plumas de cebolla morada y aceitunas verdes.</p>    
-            <p class="precio">Chica: $840</p> 
-            <p class="precio">Grande: $1400</p>    
           </div>
         </div>
       </div>
-      <div class="col-12 col-md-3 col-lg-3 py-3">
-        <div class="card">
-          <img src="/img/" class="card-img-top" alt="pizzaParaguay">
-          <div class="card-body">
-            <h5 class="card-title">Paraguaya</h5>
-            <p class="card-text-center">Salsa de tomate, queso mozzarella, queso parmesano en los bordes y finas lonjas de mandioca frita.</p>    
-            <p class="precio">Chica: $250</p> 
-            <p class="precio">Grande$250</p>    
+      <div id="4estaciones" class="container text-center mt-5">
+          <div data-aos="fade-down"data-aos-easing="linear"data-aos-duration="1500">
+            <h3 class="display-6">Pizzas 4 Estaciones</h3>
           </div>
-        </div>
-      </div>
-      <div class="col-12 col-md-3 col-lg-3 py-3">
-        <div class="card">
-          <img src="/img" class="card-img-top" alt="pizzaPeruana">
-          <div class="card-body">
-            <h5 class="card-title">Peruana</h5>
-            <p class="card-text-center">Salsa de tomate, Atún, cebolla caramelizada, morrones asados y pequeños trozos de queso mozzarella gratinados.</p>    
-            <p class="precio">Chica: $250</p> 
-            <p class="precio">Grande$250</p>    
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-md-3 col-lg-3 py-3">
-        <div class="card">
-          <img src="/img" class="card-img-top" alt="pizzaBonaerense">
-          <div class="card-body">
-            <h5 class="card-title">Bonaerense</h5>
-            <p class="card-text-center">Salsa de tomate, queso mozzarella, papas fritas, queso cheddar y panceta crocante.</p>    
-            <p class="precio">Chica: $1020</p> 
-            <p class="precio">Grande: $1700</p>    
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-md-3 col-lg-3 py-3">
-        <div class="card">
-          <img src="/img" class="card-img-top" alt="pizzaPortobello">
-          <div class="card-body">
-            <h5 class="card-title">Portobello</h5>
-            <p class="card-text-center">Salsa de tomate, queso mozzarella, papas fritas, queso cheddar y panceta crocante.</p>    
-            <p class="precio">Chica: $250</p> 
-            <p class="precio">Grande: $250</p>    
-          </div>
-        </div>
-      </div>
-        <div class="col-12 col-md-3 col-lg-3 py-3">
-          <div class="card">
-            <img src="/img/37Mon.png" class="card-img-top" alt="pizzaElMon">
-            <div class="card-body">
-              <h5 class="card-title">El Mon</h5>
-              <p class="card-text-center">Salsa de tomate, queso mozzarella, lomito ahumado a las hierbas, cebolla caramelizada, cebolla de verdeo y panceta ahumada crocante.</p>    
-              <p class="precio">Chica: $960</p> 
-              <p class="precio">Grande: $1600</p>    
-            </div>
-          </div>
-        </div>
-          </div>
-        </div>
-        <div id="4estaciones" class="container text-center mt-5">
-          <h3 class="display-6">Pizzas 4 Estaciones</h3>
-            <div  class="row mt-4">
-              <div class="col-12 col-md-3 col-lg-3 py-3">
-                  <div class="card">
-                    <img src="/img" class="card-img-top" alt="pizzaTropicoDeCancer">
-                    <div class="card-body">
-                      <h5 class="card-title">Trópico de Cáncer</h5> 
-                      <p class="card-text-center">Primavera, Jamón y Morrones, Calabresa y Napolitana.</p> 
-                      <p class="precio">Chica: $250</p> 
-                      <p class="precio">Grande$250</p>   
-                    </div>
-                  </div>
-              </div>
-              <div class="col-12 col-md-3 col-lg-3 py-3">
-                  <div class="card">
-                    <img src="/img/" class="card-img-top" alt="pizzaTropicoDeCapricornio">
-                    <div class="card-body">
-                      <h5 class="card-title">Trópico de Capricornio</h5>
-                      <p class="card-text-center"> Fugazzeta, Napolitana especial, Margarita y Muzzarella.</p>   
-                      <p class="precio">Chica: $250</p> 
-                      <p class="precio">Grande$250</p>   
-                    </div>
-                  </div>
-              </div>
-              <div class="col-12 col-md-3 col-lg-3 py-3">
-                  <div class="card">
-                    <img src="/img" class="card-img-top" alt="pizzaLineaDelEcuador">
-                    <div class="card-body">
-                      <h5 class="card-title">Línea del Ecuador</h5>
-                      <p class="card-text-center">New York, jamón, palmitos y gallega.</p>
-                      <p class="precio">Chica: $250</p> 
-                      <p class="precio">Grande$250</p>   
-                    </div>
-                  </div>
-              </div>
-              <div class="col-12 col-md-3 col-lg-3 py-3">
-                <div class="card">
-                  <img src="/img" class="card-img-top" alt="pizzaMeridianoDeGreenwich">
-                  <div class="card-body">
-                    <h5 class="card-title">Meridiano de Greenwich</h5>
-                    <p class="card-text-center">Turinesa, Caprese, cancha y persa</p> 
-                    <p class="precio">Chica: $250</p> 
-                    <p class="precio">Grande$250</p>   
-                  </div>
-                </div>
-            </div>
-            </div>
-          </div>
-        <div id="faina" class="container text-center mt-5">
-          <h3 class="display-6">Faina</h3>
-            <div  class="row mt-4">
-              <div class="col-12 col-md-3 col-lg-3 py-3">
-                  <div class="card">
-                    <img src="/img" class="card-img-top" alt="fainaComun">
-                    <div class="card-body">
-                      <h5 class="card-title">Faina comun</h5>  
-                      <p class="precio">Chica: $250</p> 
-                      <p class="precio">Grande$250</p>   
-                    </div>
-                  </div>
-              </div>
-              <div class="col-12 col-md-3 col-lg-3 py-3">
-                  <div class="card">
-                    <img src="/img/" class="card-img-top" alt="fainaRellena">
-                    <div class="card-body">
-                      <h5 class="card-title">Faina rellena</h5>
-                      <p class="card-text-center">Jamón, queso, cebolla y morron./p>    
-                      <p class="precio">Chica: $250</p> 
-                      <p class="precio">Grande$250</p>   
-                    </div>
-                  </div>
-              </div>
-              <div class="col-12 col-md-3 col-lg-3 py-3">
-                  <div class="card">
-                    <img src="/img/fainaMuzza.png" class="card-img-top" alt="faina">
-                    <div class="card-body">
-                      <h5 class="card-title">Faina</h5>
-                      <p class="card-text-center">Muzza y verdeo</p>    
-                      <p class="precio">Chica: $250</p> 
-                      <p class="precio">Grande$250</p>   
-                    </div>
-                  </div>
-              </div>
-            </div>
-          </div>
-          <div id="rellenas" class="container text-center mt-5">
-            <h3 class="display-6">Rellenas</h3>
-              <div  class="row mt-4">
-                <div class="col-12 col-md-3 col-lg-3 py-3">
-                    <div class="card">
-                      <img src="/img/granMon.png" class="card-img-top" alt="pizzaRellenaMon">
-                      <div class="card-body">
-                        <h5 class="card-title">Gran Mon</h5> 
-                          <p class="card-text-center">Muzzarella, lomito ahumado, panceta crocante y verdeo.</p>   
-                        <p class="precio">$2400</p> 
-                      </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-3 col-lg-3 py-3">
-                    <div class="card">
-                      <img src="/img/" class="card-img-top" alt="pizzaRellenaNewYork">
-                      <div class="card-body">
-                        <h5 class="card-title">Gran Newyorkina</h5>
-                        <p class="card-text-center">Muzzarella, panceta y huevos fritos.</p>    
-                        <p class="precio">$2400</p> 
-                      </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-3 col-lg-3 py-3">
-                    <div class="card">
-                      <img src="/img/granMadrileña.png" class="card-img-top" alt="pizzaRellenaMadrid">
-                      <div class="card-body">
-                        <h5 class="card-title">Gran Madrileña</h5>
-                        <p class="card-text-center">Muzzarella, rúcula, jamon crudo y parmesano.</p>    
-                        <p class="precio">$2500</p>
-                      </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-3 col-lg-3 py-3">
-                  <div class="card">
-                    <img src="/img/granNapolitana.png" class="card-img-top" alt="pizzaRellanaNapolitana">
-                    <div class="card-body">
-                      <h5 class="card-title">Gran Napolitana</h5>  
-                      <p class="card-text-center">Tomate y provensal.</p> 
-                      <p class="precio">$1900</p> 
-                    </div>
-                  </div>
-              </div>
-              <div class="col-12 col-md-3 col-lg-3 py-3">
-                  <div class="card">
-                    <img src="/img/" class="card-img-top" alt="pizzaRellenaCalabresa">
-                    <div class="card-body">
-                      <h5 class="card-title">Gran calabresa</h5>
-                      <p class="card-text-center">Calabresa.</p>    
-                      <p class="precio">$1900</p>
-                    </div>
-                  </div>
-              </div>
-              <div class="col-12 col-md-3 col-lg-3 py-3">
-                <div class="card">
-                  <img src="/img/" class="card-img-top" alt="pizzaRellenaMuzzarella">
-                  <div class="card-body">
-                    <h5 class="card-title">Gran Muzzarella</h5>
-                    <p class="card-text-center">Muzarella, Jamon y queso.</p>    
-                    <p class="precio">$1700</p> 
-                  </div>
-                </div>
-            </div>
-              <div class="col-12 col-md-3 col-lg-3 py-3">
-                  <div class="card">
-                    <img src="/img" class="card-img-top" alt="pizzaRellenaFugazzeta">
-                    <div class="card-body">
-                      <h5 class="card-title">Gran Fugazzeta</h5>
-                      <p class="card-text-center">Cebolla, muzarella, jamon y queso.</p>    
-                      <p class="precio">$1800</p>
-                    </div>
-                  </div>
-              </div>
-              </div>
-            </div>
-  
-            <div id="calzones" class="container text-center mt-5">
-              <h3 class="display-6">Calzones</h3>
-                <div  class="row mt-4">
-                  <div class="col-12 col-md-3 col-lg-3 py-3">
-                      <div class="card">
-                        <img src="/img/calzonNapolitano.png" class="card-img-top" alt="calzonNapolitano">
-                        <div class="card-body">
-                          <h5 class="card-title">Napolitano</h5>
-                          <p class="card-text-center">Tomate y provenzal.</p>    
-                          <p class="precio">$1550</p>  
-                        </div>
-                      </div>
-                  </div>
-                  <div class="col-12 col-md-3 col-lg-3 py-3">
-                      <div class="card">
-                        <img src="/img" class="card-img-top" alt="calzonElMon">
-                        <div class="card-body">
-                          <h5 class="card-title">El Mon</h5>
-                          <p class="card-text-center">Muzzarella, lomito ahumado, panceta crocante y verdeo.</p>    
-                          <p class="precio">$2000</p>  
-                        </div>
-                      </div>
-                  </div>
-                  <div class="col-12 col-md-3 col-lg-3 py-3">
-                      <div class="card">
-                        <img src="/img" class="card-img-top" alt="calzonJamonMorron">
-                        <div class="card-body">
-                          <h5 class="card-title">Jamon y Morrones</h5>
-                          <p class="card-text-center">Muzzarella, panceta y huevos fritos.</p>    
-                          <p class="precio">$1600</p>  
-                        </div>
-                      </div>
-                  </div>
-                  <div class="col-12 col-md-3 col-lg-3 py-3">
-                      <div class="card">
-                        <img src="/img" class="card-img-top" alt="calzonCalabresa">
-                        <div class="card-body">
-                          <h5 class="card-title">Calabresa</h5>
-                          <p class="card-text-center">Longaniza calabresa.</p>    
-                          <p class="precio">$1800</p> 
- 
-                        </div>
-                      </div>
-                  </div>
-                  <div class="col-12 col-md-3 col-lg-3 py-3">
-                    <div class="card">
-                      <img src="/img/calzonCaprese.png" class="card-img-top" alt="calzonCapresse">
-                      <div class="card-body">
-                        <h5 class="card-title">Capresse</h5>
-                        <p class="card-text-center">Tomate y provensal.</p>    
-                        <p class="precio">$1800</p> 
-
-                      </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-3 col-lg-3 py-3">
-                  <div class="card">
-                    <img src="/img" class="card-img-top" alt="calzonRoquefort">
-                    <div class="card-body">Roquefort</h5>
-                      <p class="card-text-center">Roquefort.</p>    
-                      <p class="precio">$1800</p>  
-                    </div>
-                  </div>
-              </div>
-                </div>
-              </div>
-              <div id="empanadas" class="container text-center mt-5">
-                <h3 class="display-6">Empanadas</h3>
-                  <div  class="row mt-4">
-                    <div class="col-12 col-md-3 col-lg-3 py-3">
-                        <div class="card">
-                          <img src="/img/empanadas.png" class="card-img-top" alt="empanadas
-                          <div class="card-body">
-                            <h5 class="card-title">Empanadas</h5>
-                            <p class="card-text-center">POR UNIDAD $200</p>   
-                            <p class="card-text-center">DOCENA $2200</p>
-                          </div>
-                          <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Carne cortada a cuchillo.</li>
-                            <li class="list-group-item">Carne cortada a cuchillo picante.</li>
-                            <li class="list-group-item">Vacio con provolone(Consultar stock).</li>
-                            <li class="list-group-item">Hamburguesa(Consultar stock).</li>
-                            <li class="list-group-item">Jamon y queso.</li>
-                            <li class="list-group-item">Pollo.</li>
-                            <li class="list-group-item">Cebolla y queso.</li>
-                            <li class="list-group-item">Cantimpalo.</li>
-                            <li class="list-group-item">Roquefort y jamon.</li>
-                            <li class="list-group-item">Capresse.</li>
-                            <li class="list-group-item">Humita</li> 
-                          </ul>
-                        </div>
-                    </div>
-                  </div> 
-              </div>      
-              <div id="canastitas" class="container text-center mt-5">
-                <h3 class="display-6">Canastitas</h3>
-                  <div  class="row mt-4">
-                    <div class="col-12 col-md-3 col-lg-3 py-3">
-                        <div class="card">
-                          <img src="/img/canastitas.png" class="card-img-top" alt="canastitas">
-                          <div class="card-body">
-                            <h5 class="card-title">Canastitas</h5>
-                            <p class="card-text-center">Por unidad $220</p>   
-                            <p class="card-text-center">Docena $2400</p>
-                          </div>
-                            <ul class="list-group list-group-flush">
-                              <li class="list-group-item">Capresse.</li>
-                              <li class="list-group-item">Tricolor(espinaca,zapallo y muzzarella).</li>
-                              <li class="list-group-item">Primavera(tomate, jamon y huevo).</li>
-                              <li class="list-group-item">Brocoli, coliflor y muzzarella.</li>
-                              <li class="list-group-item">Espinaca y salsa blanca.</li>
-                              <li class="list-group-item">Muzzarella, provolone y jamon</li>
-                              <li class="list-group-item">Napolitana(tomate y provensal)</li>
-                              <li class="list-group-item">Pesto(muzzarella, ajo, albahaca, nuez y provolone).</li>
-                              <li class="list-group-item">Zapallito verde(muzarella, cebolla y huevo).</li>
-                            </ul>
-                        </div>
-                    </div>
-                  </div> 
-              </div>      
-
-              <div id="fritters" class="container text-center mt-5">
-                <h3 class="display-6">Fritters</h3>
-                  <div  class="row mt-4">
-                    <div class="col-12 col-md-3 col-lg-4 py-3">
-                      <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Empanada de carne</li>
-                        <li class="list-group-item">Bastones de pollo.</li>
-                        <li class="list-group-item">Papas rusticas.</li>
-                      </ul>
-                    </div> 
-                  </div> 
-                  <div  class="row mt-4">
-                    <div class="col-12 col-md-3 col-lg-4 py-3">
-                      <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Batatas fritas.</li>
-                        <li class="list-group-item">Papas El Mon.</li>
-                        <li class="list-group-item">Opcional cheddar y verdeo.</li>
-                      </ul>
-                    </div> 
-                  </div> 
-                </div> 
-
-    <div id="postres" class="container text-center mt-5">
-      <h3 class="display-6">Postres</h3>
         <div  class="row mt-4">
-          <div class="col-12 col-md-3 col-lg-3 py-3">
-              <div class="card">
-                <img src="/img" class="card-img-top" alt="pizzaDulce">
-                <div class="card-body">
-                  <h5 class="card-title">Pizza dulce</h5>
-                  <p class="card-text-center">Banana, dulce de leche y chocolate.</p>    
-                  <p class="precio">Chica: $250</p>  
-                </div>
-              </div>
-          </div>
-          <div class="col-12 col-md-3 col-lg-3 py-3">
-              <div class="card">
-                <img src="/img" class="card-img-top" alt="pizzaDulce">
-                <div class="card-body">
-                  <h5 class="card-title">Pizza dulce</h5>
-                  <p class="card-text-center">Manzana, dulce de leche y chocolate.</p>    
-                  <p class="precio">Chica: $250</p> 
-                </div>
-              </div>
-          </div>
-          <div class="col-12 col-md-3 col-lg-3 py-3">
-              <div class="card">
-                <img src="/img" class="card-img-top" alt="pizzaDulce">
-                <div class="card-body">
-                  <h5 class="card-title">Copa El Moncito</h5>
-                  <p class="card-text-center">Helado americana y chocolate, nueces, salsa chocolate, whisky o baileys.</p>    
-                  <p class="precio">Chica: $250</p>   
-                </div>
-              </div>
-          </div>
-        </div>
-      </div>
- 
-    <div id="bebidas" class="container text-center mt-5">
-      <h3 class="display-6">Bebidas sin Alcohol</h3>
-      <div  class="row mt-4">
-        <div class="col-12 col-md-3 col-lg-12 py-3">
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">Agua 1,5 L</li>
-            <li class="list-group-item">Agua con gas 1,5 L</li>
-            <li class="list-group-item">Agua saborizada Levite 1,5 L(Pomelo, pera, manzana, naranja)</li>
-            <li class="list-group-item">Coca cola 1,75 L</li>
-            <li class="list-group-item">Sprite 1,75 L</li>
-            <li class="list-group-item">Fanta 1,75 L</li>
-            <li class="list-group-item">Scheweppes 1,5 L (Tonica, pomelo)</li>
-          </ul>
+          <div class="col-12 col-md-12 col-lg-12 py-3">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Trópico de Cáncer
+                  <p class="card-text-center">Primavera, Jamón y Morrones, Calabresa y Napolitana.</p> 
+                  <p class="precio">Chica: $1040</p> 
+                  <p class="precio">Grande: $1600</p>   
+              </li>
+              <li class="list-group-item">Trópico de Capricornio
+                  <p class="card-text-center"> Fugazzeta, Napolitana especial, Margarita y Muzzarella.</p>   
+                      <p class="precio">Chica: $900</p> 
+                      <p class="precio">Grande: $1400</p>   
+              </li>
+              <li class="list-group-item">Línea del Ecuador
+                  <p class="card-text-center">New York, jamón, palmitos y gallega.</p>
+                  <p class="precio">Chica: $1170</p> 
+                  <p class="precio">Grande: $1800</p>   
+              </li>
+              <li class="list-group-item">Meridiano de Greenwich
+                  <p class="card-text-center">Turinesa, Caprese, cancha y persa</p> 
+                    <p class="precio">Chica: $1040</p> 
+                    <p class="precio">Grande: $1600</p>  
+              </li>
+            </ul>
+          </div> 
         </div> 
-      </div> 
-    </div> 
-    <div id="cervezas" class="container text-center mt-5">
-      <h3 class="display-6">Cervezas</h3>
-        <div  class="row mt-4">
-          <div class="card mb-3 d-flex flex-row justify-content-center alig-items-center">
-            <img src="img/logoImperialDos.png" class="card-img-top" style="width: 18rem" alt="logoImperial">
+      </div>
+      <div id="faina" class="container text-center mt-5">
+          <div data-aos="fade-down"data-aos-easing="linear"data-aos-duration="1500">
+            <h3 class="display-6">Faina</h3>
           </div>
-          <div class="col-12 col-md-3 col-lg-4 py-3">
+        <div  class="row mt-4">
+          <div class="col-12 col-md-6 col-lg-6 py-3">
+            <div class="card h-100">
+              <img src="/img/fainaComun.png" class="card-img-top" alt="fainaComun">
+              <div class="card-body">
+                <h5 class="card-title">Faina comun</h5>  
+                <p class="precio">$200</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-6 py-3">
+            <div class="card h-100">
+              <img src="/img/fainaMuzza.png" class="card-img-top" alt="faina">
+              <div class="card-body">
+                <h5 class="card-title">Faina</h5>
+                <p class="card-text-center">Muzza y verdeo</p>    
+                <p class="precio">$250</p> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="rellenas" class="container text-center mt-5">
+          <div data-aos="fade-down"data-aos-easing="linear"data-aos-duration="1500">
+            <h3 class="display-6">Rellenas</h3>
+          </div>
+        <div  class="row mt-4">
+          <div class="col-12 col-md-4 col-lg-4 py-3">
+            <div class="card h-100 h-100">
+              <img src="/img/granMon.png" class="card-img-top" alt="pizzaRellenaMon">
+              <div class="card-body">
+                <h5 class="card-title">Gran Mon</h5> 
+                <p class="card-text-center">Muzzarella, lomito ahumado, panceta crocante y verdeo (Rellena con jamon y muzza).</p>   
+                <p class="precio">$2600</p> 
+              </div>
+            </div>
+          </div>             
+          <div class="col-12 col-md-4 col-lg-4 py-3">
+            <div class="card h-100">
+              <img src="/img/granMadrileña.png" class="card-img-top" alt="pizzaRellenaMadrid">
+              <div class="card-body">
+                <h5 class="card-title">Gran Madrileña</h5>
+                <p class="card-text-center">Muzzarella, rúcula, jamon crudo y parmesano (Rellena con jamon y muzza).</p>    
+                <p class="precio">$2800</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-4 py-3">
+            <div class="card h-100">
+              <img src="/img/granCalabresa.png" class="card-img-top" alt="pizzaRellenaMadrid">
+              <div class="card-body">
+                <h5 class="card-title">Gran Calabresa</h5>
+                <p class="card-text-center">Salsa de tomate natural, queso mozzarella, rodajas de longaniza calabresa, finas lonjas de morrón asado, orégano y aceitunas verdes(Rellena con jamon y muzza).</p>    
+                <p class="precio">$2800</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-4 py-3">
+            <div class="card h-100">
+              <img src="/img/granMuzza.png" class="card-img-top" alt="pizzaRellenaMadrid">
+              <div class="card-body">
+                <h5 class="card-title">Gran Muzzarella</h5>
+                <p class="card-text-center">Salsa de tomate natural con ajo, albahaca y especias ahumadas, 300 gr de queso mozzarella, aceitunas verdes carnosas y orégano (Rellena con jamon y muzza).</p>    
+                <p class="precio">$2800</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-4 py-3">
+            <div class="card h-100">
+              <img src="/img/granNapolitana.png" class="card-img-top" alt="pizzaRellanaNapolitana">
+              <div class="card-body">
+                <h5 class="card-title">Gran Napolitana</h5>  
+                <p class="card-text-center">Salsa de tomate, queso mozzarella, finas rodajas de tomate, provenzal fresco, aceitunas verdes y orégano.(Rellena con jamon y muzza).</p> 
+                <p class="precio">$2100</p> 
+              </div>
+            </div>
+          </div>
+      <div id="calzones" class="container text-center mt-5">
+          <div data-aos="fade-down"data-aos-easing="linear"data-aos-duration="1500">
+            <h3 class="display-6">Calzones</h3>
+          </div>
+        <div  class="row mt-4">
+          <div class="col-12 col-md-6 col-lg-6 py-3">
             <div class="card">
+              <img src="/img/calzonNapolitano.png" class="card-img-top" alt="calzonNapolitano">
+              <div class="card-body">
+                <h5 class="card-title">Napolitano</h5>
+                <p class="card-text-center">Tomate y provenzal.</p>    
+                <p class="precio">$1650</p>  
+            </div>
+          </div>
+        </div>
+          <div class="col-12 col-md-6 col-lg-6 py-3">
+            <div class="card">
+              <img src="/img/calzonCaprese.png" class="card-img-top" alt="calzonCapresse">
+              <div class="card-body">
+                <h5 class="card-title">Capresse</h5>
+                <p class="card-text-center">Tomate y albahaca.</p>    
+                <p class="precio">$1900</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="empanadas" class="container text-center mt-5">
+          <div data-aos="fade-down"data-aos-easing="linear"data-aos-duration="1500">
+            <h3 class="display-6">Empanadas</h3>
+          </div>
+        <div  class="row mt-4">
+          <div class="col-12 col-md-12 col-lg-12 py-3 d-flex justify-content-center">
+            <div class="card">
+              <img src="/img/empanadas.png" class="card-img-top" alt="empanadas">
+                <div class="card-body">
+                  <h5 class="card-title">Empanadas</h5>
+                  <p class="card-text-center">DOCENA $2550</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Carne cortada a cuchillo
+                    <p class="precio">$230</p>
+                  </li>
+                  <li class="list-group-item">Carne cortada a cuchillo picante
+                    <p class="precio">$230</p> 
+                  </li>
+                  <li class="list-group-item">Vacio con provolone(Consultar stock)
+                    <p class="precio">$280</p> 
+                  </li>
+                  <li class="list-group-item">Hamburguesa(Consultar stock)
+                    <p class="precio">$230</p> 
+                  </li>
+                  <li class="list-group-item">Jamon y queso
+                    <p class="precio">$230</p> 
+                  </li>
+                  <li class="list-group-item">Pollo
+                    <p class="precio">$230</p> 
+                  </li>
+                  <li class="list-group-item">Cebolla y queso
+                    <p class="precio">$230</p> 
+                  </li>
+                  <li class="list-group-item">Cantimpalo
+                    <p class="precio">$230</p> 
+                  </li>
+                  <li class="list-group-item">Roquefort y jamon
+                    <p class="precio">$230</p> 
+                  </li>
+                  <li class="list-group-item">Capresse
+                    <p class="precio">$230</p> 
+                  </li>
+                  <li class="list-group-item">Humita
+                    <p class="precio">$230</p> 
+                  </li> 
+                </ul>
+            </div>
+          </div>
+        </div> 
+      </div>      
+      <div id="canastitas" class="container text-center mt-5">
+          <div data-aos="fade-down"data-aos-easing="linear"data-aos-duration="1500">
+            <h3 class="display-6">Canastitas</h3>
+          </div>
+        <div  class="row mt-4">
+          <div class="col-12 col-md-12 col-lg-12 py-3 d-flex justify-content-center">
+            <div class="card">
+              <img src="/img/canastitas.png" class="card-img-top" alt="canastitas">
+              <div class="card-body">
+                <h5 class="card-title">Canastitas</h5> 
+                <p class="card-text-center">Docena $2750</p>
+              </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Capresse
+                    <p class="precio">$250</p> 
+                  </li>
+                  <li class="list-group-item">Tricolor(espinaca,zapallo y muzzarella)
+                    <p class="precio">$250</p> 
+                  </li>
+                  <li class="list-group-item">Primavera(tomate, jamon y huevo)
+                    <p class="precio">$250</p> 
+                  </li>
+                  <li class="list-group-item">Brocoli, coliflor y muzzarella
+                    <p class="precio">$250</p> 
+                  </li>
+                  <li class="list-group-item">Espinaca y salsa blanca
+                    <p class="precio">$250</p> 
+                  </li>
+                  <li class="list-group-item">Muzzarella, provolone y jamon
+                    <p class="precio">$250</p> 
+                  </li>
+                  <li class="list-group-item">Napolitana(tomate y provensal)
+                    <p class="precio">$250</p> 
+                  </li>
+                  <li class="list-group-item">Pesto(muzzarella, ajo, albahaca, nuez y provolone)
+                    <p class="precio">$250</p> 
+                  </li>
+                  <li class="list-group-item">Zapallito verde(muzarella, cebolla y huevo)
+                    <p class="precio">$250</p> 
+                  </li>
+                </ul>
+            </div>
+          </div>
+        </div> 
+      </div>      
+      <div id="fritters" class="container text-center mt-5">
+          <div data-aos="fade-down"data-aos-easing="linear"data-aos-duration="1500">
+            <h3 class="display-6">Fritters</h3>
+          </div>
+          <div  class="row mt-4">
+            <div class="col-12 col-md-12 col-lg-12 py-3">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Empanadas De Carne Cortada a Cuchillo  
+                  <p class="precio">$230</p>  
+                </li>
+                <li class="list-group-item">Bastones De Pollo 
+                  <p class="precio">$1200</p> 
+                </li>
+                <li class="list-group-item">Papas Fritas Rusticas 
+                  <p class="precio">$900</p> 
+                </li>
+                <li class="list-group-item">Batatas Fritas
+                  <p class="precio">$900</p> 
+                </li>
+                <li class="list-group-item">Papas El Mon   
+                  <p class="precio">$1400</p>  
+                </li>
+              </ul>
+            </div> 
+          </div> 
+      </div> 
+      <div id="postres" class="container text-center mt-5">
+          <div data-aos="fade-down"data-aos-easing="linear"data-aos-duration="1500">
+            <h3 class="display-6">Postres</h3>
+          </div>
+        <div  class="row mt-4">
+          <div class="col-12 col-md-12 col-lg-12 py-3">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Pizza Dulce
+                <p class="card-text-center">Banana, dulce de leche y chocolate.</p>    
+                <p class="precio">$1300</p>  
+              </li>
+              <li class="list-group-item">Pizza Dulce
+                <p class="card-text-center">Manzana, dulce de leche y chocolate.</p>    
+                <p class="precio">$1300</p> 
+              </li>
+              <li class="list-group-item">Flan Casero
+                <p class="card-text-center">Solo</p>
+                <p class="precio">$400</p> 
+                <p class="card-text-center">Con dulce de leche</p>
+                <p class="precio">$450</p>  
+                <p class="card-text-center">Con crema</p> 
+                <p class="precio">$450</p>  
+                <p class="card-text-center">Mixto</p>
+                <p class="precio">$500</p> 
+              </li>
+              <li class="list-group-item">Copa El Moncito 
+                <p class="card-text-center">Helado americana y chocolate, nueces, salsa chocolate, whisky o baileys.</p>    
+                <p class="precio">$1200</p>  
+              </li>
+            </ul>
+          </div> 
+        </div> 
+      </div>   
+      <div id="cervezas" class="container text-center mt-5">
+          <div data-aos="fade-down"data-aos-easing="linear"data-aos-duration="1500">
+            <h3 class="display-6">Cervezas</h3>
+          </div>
+        <div class="fondoImperial">
+          <div  class="row mt-4">
+            <div id="portadaImperial"  class="card mb-3 d-flex flex-row justify-content-center alig-items-center">
+              <div data-aos="fade-up"data-aos-duration="3000">
+                <img src="img/logoImperialDos.png" class="card-img-top" style="width: 18rem" alt="logoImperial">
+              </div>
+            </div>
+          <div class="col-12 col-md-4 col-lg-4 py-3">
+            <div class="card h-100">
               <img src="/img/golden.png" class="card-img-top" alt="imperialGolden">
               <div class="card-body">
                 <h5 class="card-title">Imperial Golden</h5>
                 <p class="card-text-center">1 L</p>    
-                <p class="precio">$250</p>  
+                <p class="precio">$500</p>  
               </div>
             </div> 
           </div>
-          <div class="col-12 col-md-3 col-lg-4 py-3">
-            <div class="card">
+          <div class="col-12 col-md-4 col-lg-4 py-3">
+            <div class="card h-100">
               <img src="/img/amber.png" class="card-img-top" alt="imperialAmber">
               <div class="card-body">
                 <h5 class="card-title">Imperial Amber</h5>
                 <p class="card-text-center">1 L.</p>    
-                <p class="precio">$250</p>  
+                <p class="precio">$500</p>  
               </div>
             </div> 
           </div>
-          <div class="col-12 col-md-3 col-lg-4 py-3">
+          <div class="col-12 col-md-4 col-lg-4 py-3">
             <div class="card">
               <img src="/img/cream.png" class="card-img-top" alt="imperialCreamStout">
               <div class="card-body">
                 <h5 class="card-title">Imperial Cream Stout</h5>
                 <p class="card-text-center">1 L</p>    
-                <p class="precio">$250</p>  
+                <p class="precio">$500</p>  
               </div>
             </div> 
           </div>
-          <div class="col-12 col-md-3 col-lg-4 py-3">
-            <div class="card">
+          <div class="col-12 col-md-4 col-lg-4 py-3">
+            <div class="card h-100">
               <img src="/img/lager.png" class="card-img-top" alt="imperialLager">
               <div class="card-body">
                 <h5 class="card-title">Imperial Lager</h5>
                 <p class="card-text-center">1 L</p>    
-                <p class="precio">$250</p>  
+                <p class="precio">$500</p>  
               </div>
             </div> 
           </div>
-          <div class="col-12 col-md-3 col-lg-4 py-3">
-            <div class="card">
+          <div class="col-12 col-md-4 col-lg-4 py-3">
+            <div class="card h-100">
               <img src="/img/apa.png" class="card-img-top" alt="imperialApa">
               <div class="card-body">
                 <h5 class="card-title">Imperial Apa</h5>
                 <p class="card-text-center">1 L</p>    
-                <p class="precio">$250</p>  
+                <p class="precio">$500</p>  
               </div>
             </div> 
           </div>
-          <div class="col-12 col-md-3 col-lg-4 py-3">
-            <div class="card">
+          <div class="col-12 col-md-4 col-lg-4 py-3">
+            <div class="card h-100">
               <img src="/img/ipa.png" class="card-img-top" alt="imperialIpa">
               <div class="card-body">
                 <h5 class="card-title">Imperial Ipa</h5>
-                <p class="card-text-center">1 .</p>    
-                <p class="precio">$250</p>  
+                <p class="card-text-center">1 L</p>    
+                <p class="precio">$500</p>  
               </div>
             </div> 
           </div>
-          <div class="card mb-3 d-flex flex-row justify-content-center alig-items-center">
-            <img src="img/logoImperialDos.png" class="card-img-top" style="width: 18rem" alt="...">
-          </div>
-          <div class="col-12 col-md-3 col-lg-4 py-3">
-            <div class="card">
+        </div>
+      </div>
+      </div>
+      <div class="row mt-4">
+          <div class="col-12 col-md-4 col-lg-3 py-3">
+            <div class="card h-100">
               <img src="/img/grolsch.png" class="card-img-top" alt="cervezaGrolsch">
               <div class="card-body">
                 <h5 class="card-title">Grolsch</h5>
                 <p class="card-text-center">1 L</p>    
-                <p class="precio">$250</p>  
+                <p class="precio">$600</p>  
               </div>
             </div> 
           </div>
-          <div class="col-12 col-md-3 col-lg-4 py-3">
-            <div class="card">
+          <div class="col-12 col-md-4 col-lg-3 py-3">
+            <div class="card h-100">
               <img src="/img/sol.png" class="card-img-top" alt="cervezaSol">
               <div class="card-body">
                 <h5 class="card-title">Sol</h5>
                 <p class="card-text-center">1 L</p>    
-                <p class="precio">$250</p>  
+                <p class="precio">$600</p>  
               </div>
             </div> 
-          </div>
-          
-          <div class="col-12 col-md-3 col-lg-4 py-3">
-            <div class="card">
+          </div>          
+          <div class="col-12 col-md-4 col-lg-3 py-3">
+            <div class="card h-100">
               <img src="/img/amster.png" class="card-img-top" alt="cervezaAmster">
               <div class="card-body">
                 <h5 class="card-title">Amster</h5>
                 <p class="card-text-center">1 L</p>    
-                <p class="precio">$250</p>  
+                <p class="precio">$500</p>  
               </div>
             </div> 
           </div>
-          <div class="col-12 col-md-3 col-lg-4 py-3">
-            <div class="card">
+          <div class="col-12 col-md-3 col-lg-3 py-3">
+            <div class="card h-100">
               <img src="/img/heineken.png" class="card-img-top" alt="cervezaHeineken">
               <div class="card-body">
                 <h5 class="card-title">Heineken</h5>
                 <p class="card-text-center">1 L</p>    
-                <p class="precio">$250</p>  
+                <p class="precio">$600</p>  
               </div>
             </div> 
           </div>
           <div class="col-12 col-md-3 col-lg-4 py-3">
-            <div class="card">
+            <div class="card h-100">
               <img src="/img/salta.png" class="card-img-top" alt="cervezaSalta">
               <div class="card-body">
                 <h5 class="card-title">Salta</h5>
                 <p class="card-text-center">1 L</p>    
-                <p class="precio">$250</p>  
+                <p class="precio">$500</p>  
               </div>
             </div> 
           </div>
           <div class="col-12 col-md-3 col-lg-4 py-3">
-            <div class="card">
+            <div class="card h-100">
               <img src="/img/miller.png" class="card-img-top" alt="cervezaMiller">
               <div class="card-body">
                 <h5 class="card-title">Miller</h5>
                 <p class="card-text-center">1 L</p>    
-                <p class="precio">$250</p>  
+                <p class="precio">$550</p>  
               </div>
             </div> 
           </div>
           <div class="col-12 col-md-3 col-lg-4 py-3">
-            <div class="card">
+            <div class="card h-100">
               <img src="/img/warsteiner.png" class="card-img-top" alt="cervezaWarsteiner">
               <div class="card-body">
                 <h5 class="card-title">Warsteiner</h5>
                 <p class="card-text-center">1 L</p>    
-                <p class="precio">$250</p>  
+                <p class="precio">$550</p>  
               </div>
             </div> 
           </div>
-        </div> 
     </div>      
-    <div class="container text-center mt-5">
-      <h3 class="display-6">Porrones</h3>
+      <div class="container text-center mt-5">
+          <div data-aos="fade-down"data-aos-easing="linear"data-aos-duration="1500">
+            <h3 class="display-6">Porrones</h3>
+          </div>
+        <div  class="row mt-4">
+          <div class="col-12 col-md-4 col-lg-4 py-3">
+            <div class="card h-100">
+              <img src="/img/poorronsol2.png" class="card-img-top" alt="porronSol">
+              <div class="card-body">
+                <h5 class="card-title">Sol</h5>
+                <p class="card-text-center">473 ML</p>    
+                <p class="precio">$400</p>  
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-4 py-3">
+            <div class="card h-100">
+              <img src="/img/porronHeineken.png" class="card-img-top" alt="porronHeineken">
+              <div class="card-body">
+                <h5 class="card-title">Heineken</h5>
+                <p class="card-text-center">330 ML</p>    
+                <p class="precio">$400</p> 
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-4 py-3">
+            <div class="card h-100">
+              <img src="/img/porronMiller.png" class="card-img-top" alt="porronMiller">
+              <div class="card-body">
+                <h5 class="card-title">Miller</h5>
+                <p class="card-text-center">330 ML</p>    
+                <p class="precio">$400</p>   
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>   
+      <div id="espumantes" class="container text-center mt-5">
+          <div data-aos="fade-down"data-aos-easing="linear"data-aos-duration="1500">
+            <h3 class="display-6">Espumantes</h3>
+          </div>
         <div  class="row mt-4">
           <div class="col-12 col-md-3 col-lg-3 py-3">
-              <div class="card">
-                <img src="/img/poorronsol2.png" class="card-img-top" alt="porronSol">
+              <div class="card h-100">
+                <img src="/img/realEspumante.png" class="card-img-top" alt="sidraReal">
                 <div class="card-body">
-                  <h5 class="card-title">Sol</h5>
-                  <p class="card-text-center">473 ML</p>    
-                  <p class="precio">Chica: $250</p>  
+                  <h5 class="card-title">Sidra Real Negra</h5>
+                  <p class="card-text-center">750 CC</p>    
+                  <p class="precio">$900</p>   
                 </div>
               </div>
           </div>
           <div class="col-12 col-md-3 col-lg-3 py-3">
-              <div class="card">
-                <img src="/img/porronHeineken.png" class="card-img-top" alt="porronHeineken">
+              <div class="card h-100">
+                <img src="/img/1888Sidra.png" class="card-img-top" alt="sidra1888">
                 <div class="card-body">
-                  <h5 class="card-title">Heineken</h5>
-                  <p class="card-text-center">330 ML</p>    
-                  <p class="precio">Chica: $250</p> 
+                  <h5 class="card-title">1888</h5>
+                  <p class="card-text-center">750 CC</p>    
+                  <p class="precio">$1350</p>   
                 </div>
               </div>
           </div>
           <div class="col-12 col-md-3 col-lg-3 py-3">
-              <div class="card">
-                <img src="/img/porronMiller.png" class="card-img-top" alt="porronMiller">
-                <div class="card-body">
-                  <h5 class="card-title">Miller</h5>
-                  <p class="card-text-center">330 ML</p>    
-                  <p class="precio">Chica: $250</p>   
-                </div>
+            <div class="card h-100">
+              <img src="/img/realFrutos.png" class="card-img-top" alt="sidraRealFrutos">
+              <div class="card-body">
+                <h5 class="card-title">Real Frutos Rojos</h5>
+                <p class="card-text-center">750 CC</p>    
+                <p class="precio">$900</p>   
               </div>
+            </div>
           </div>
-        </div>
-      </div>
-      <div class="container text-center mt-5">
-        <h3 class="display-6">Latas</h3>
-          <div  class="row mt-4">
-            <div class="col-12 col-md-3 col-lg-3 py-3">
-                <div class="card">
-                  <img src="/img/lataAmstel.png" class="card-img-top" alt="lataAmstel">
-                  <div class="card-body">
-                    <h5 class="card-title">Amstel</h5>
-                    <p class="card-text-center">473 ML</p>    
-                    <p class="precio">Chica: $250</p>  
-                  </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-3 col-lg-3 py-3">
-                <div class="card">
-                  <img src="/img/lataImperial.png" class="card-img-top" alt="lataImperial">
-                  <div class="card-body">
-                    <h5 class="card-title">Imperial</h5>
-                    <p class="card-text-center">473 ML</p>    
-                    <p class="precio">Chica: $250</p> 
-                  </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-3 col-lg-3 py-3">
-                <div class="card">
-                  <img src="/img/lataSalta.png" class="card-img-top" alt="lataSalta">
-                  <div class="card-body">
-                    <h5 class="card-title">Salta</h5>
-                    <p class="card-text-center">473 ML</p>    
-                    <p class="precio">Chica: $250</p>   
-                  </div>
-                </div>
+          <div class="col-12 col-md-3 col-lg-3 py-3">
+            <div class="card h-100">
+              <img src="/img/chandonDelice.png" class="card-img-top" alt="chandon">
+              <div class="card-body">
+                <h5 class="card-title">Chandon Delice</h5>
+                <p class="card-text-center">750 ML</p>    
+                <p class="precio">$2600</p>   
+              </div>
             </div>
           </div>
         </div>
-        <div id="espumantes" class="container text-center mt-5">
-          <h3 class="display-6">Espumantes</h3>
-            <div  class="row mt-4">
-              <div class="col-12 col-md-3 col-lg-3 py-3">
-                  <div class="card">
-                    <img src="/img/realEspumante.png" class="card-img-top" alt="sidraReal">
-                    <div class="card-body">
-                      <h5 class="card-title">Sidra Real Negra</h5>
-                      <p class="card-text-center">750 CC</p>    
-                      <p class="precio">Grande$250</p>   
-                    </div>
-                  </div>
-              </div>
-              <div class="col-12 col-md-3 col-lg-3 py-3">
-                  <div class="card">
-                    <img src="/img/1888Sidra.png" class="card-img-top" alt="sidra1888">
-                    <div class="card-body">
-                      <h5 class="card-title">1888</h5>
-                      <p class="card-text-center">750 CC</p>    
-                      <p class="precio">Chica: $250</p>   
-                    </div>
-                  </div>
-              </div>
-              <div class="col-12 col-md-3 col-lg-3 py-3">
-                <div class="card">
-                  <img src="/img/realFrutos.png" class="card-img-top" alt="sidraRealFrutos">
-                  <div class="card-body">
-                    <h5 class="card-title">Real Frutos Rojos</h5>
-                    <p class="card-text-center">750 CC</p>    
-                    <p class="precio">Chica: $250</p>   
-                  </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-3 col-lg-3 py-3">
-              <div class="card">
-                <img src="/img/chandonDelice.png" class="card-img-top" alt="chandon">
-                <div class="card-body">
-                  <h5 class="card-title">Chandon Delice</h5>
-                  <p class="card-text-center">750 ML</p>    
-                  <p class="precio">Chica: $250</p>   
-                </div>
-              </div>
-          </div>
-            </div>
-          </div>
-        
-          <div id="vinos" class="container text-center mt-5">
+      </div>       
+      <div id="vinos" class="container text-center mt-5">
+          <div data-aos="fade-down"data-aos-easing="linear"data-aos-duration="1500">
             <h3 class="display-6">Vinos</h3>
-              <div  class="row mt-4">
-                <div class="col-12 col-md-3 col-lg-4 py-3">
-                    <div id="laCelia" class="card">
-                      <img src="/img/laCelia.png" class="card-img-top" alt="logoLaCelia">
-                      <div class="card-body">
-                        <h5 class="card-title">Bodega La Celia</h5>
-                        <p class="card-text-center">Varietales</p>
-                      </div>
-                      <ul class="list-group list-group-flush">
-                        <li class="list-group-item">La Celia Elite Malbec 750 CC</li>
-                        <li class="list-group-item">La Celia Pion Malbec 750 CC</li>
-                        <li class="list-group-item">La Celia Pion Cabernet Franc 750 CC</li>
-                        <li class="list-group-item">La Celia Reserva Malbec 750 CC</li>
-                        <li class="list-group-item">La Celia Reserva Malbec/Cabernet 750 CC</li>
-                        <li class="list-group-item">Eugenio Bustos Leyenda Malbec 750 CC</li>
-                        <li class="list-group-item">Eugenios Bustos Malbec 750 CC</li>
-                        <li class="list-group-item">Eugenio Bustos Cabernet Sauvignon 750 CC</li>
-                        <li class="list-group-item">Eugenio Bustos Leyenda Chardonnay 750 CC</li>
-                        <li class="list-group-item">La Celia Reserva Pinot Grigio 750 CC</li>
-                        <li class="list-group-item">Eugenio Bustos Blanco Dulce 750 CC</li> 
-                      </ul>
-                    </div>
-                </div>
-              </div> 
-          </div>      
-     
-        <div id="espirituosas" class="container text-center mt-5">
-          <h3 class="display-6">Bebidas espirituosas (Medida)</h3>
-          <div  class="row mt-4">
-            <div class="col-12 col-md-3 col-lg-12 py-3">
+          </div>
+        <div  class="row mt-4">
+          <div class="col-12 col-md-12 col-lg-12 py-3 d-flex justify-content-center">
+            <div id="laCelia" class="card">
+              <img src="/img/la_celia.png" class="card-img-top" alt="logoLaCelia">
+              <div class="card-body">
+                <h5 class="card-title">Bodega La Celia</h5>
+                  <p class="card-text-center">Varietales</p>
+              </div>
               <ul class="list-group list-group-flush">
-                <li class="list-group-item">Whisky - Ron - Gin</li>
+                <li class="list-group-item">La Celia Pion Malbec 750 
+                  <p class="precio">$1600</p> 
+                </li>
+                <li class="list-group-item">La Celia Reserva Malbec 750 
+                  <p class="precio">$1100</p> 
+                </li>
+                <li class="list-group-item">Eugenio Bustos Leyenda Malbec 750
+                  <p class="precio">$800</p> 
+                </li>
+                <li class="list-group-item">Eugenios Bustos Malbec 750
+                  <p class="precio">$800</p> 
+                </li>
+                <li class="list-group-item">Eugenio Bustos Blanco Dulce 750
+                  <p class="precio">$800</p> 
+                </li> 
               </ul>
-            </div> 
-          </div> 
-        </div>  
-        <div id="tragos" class="container text-center mt-5">
-          <h3 class="display-6">Tragos</h3>
-          <div  class="row mt-4">
-            <div class="col-12 col-md-3 col-lg-12 py-3">
+            </div>
+          </div>
+        </div> 
+      </div>      
+      <div id="tragos" class="container text-center mt-5">
+          <div data-aos="fade-down"data-aos-easing="linear"data-aos-duration="1500">
+            <h3 class="display-6">Tragos</h3>
+          </div>
+        <div  class="row mt-4">
+          <div class="col-12 col-md-12 col-lg-12 py-3">
               <ul class="list-group list-group-flush">
-                <li class="list-group-item">Fernet con Coca</li>
-                <li class="list-group-item">Gancia con limon y Sprite</li>
-                <li class="list-group-item">Gin tonic</li>
-                <li class="list-group-item">Campari con jugo de naranja</li>
-                <li class="list-group-item">Cuba libre</li>
+                <li class="list-group-item">Fernet con Coca
+                  <p class="precio">$700</p> 
+                </li>
+                <li class="list-group-item">Gancia con limon y Sprite
+                  <p class="precio">$600</p> 
+                </li>
+                <li class="list-group-item">Gin tonic
+                  <p class="precio">$700</p> 
+                </li>
+                <li class="list-group-item">Campari con jugo de naranja
+                  <p class="precio">$700</p> 
+                </li>
               </ul>
-            </div> 
           </div> 
-        </div>  
-              
-              
-<footer class="grid-container">
-  <div class="item1">
-    <img class="logo-footer" src="/img/El Mon_Logotipo FINAL-02.png" alt="logoElmon">
-  </div>
-  <div class="item2">
-    <img class="imperial-footer" src="/img/logoImperialDos.png" alt="logoImperial">
-  </div>
-  <div class="item3">       
-      <p class="titulo-redes">Encontranos en las redes</p>
-        <ul class="redes"> 
-          <li><a href="https://api.whatsapp.com/send/?phone=5491126914316&text=Hola+El+Mon%2C+quiero+hacer+un+pedido&app_absent=0"> <img style="width: 40px; height: 40px;" src="img/whatsapp.png"></a></li>
-         <li><a href="https://m.facebook.com/El-Mon-102532042456336/"> <img style="width: 40px; height: 40px;" src="img/facebook (1).png"></a></li>
-          <li><a href="https://instagram.com/pizzeria.elmon?igshid=YzAyZWRIMzg="> <img style="width: 40px; height: 40px;" src="/img/instagram (1).png"></a></li>      
-        </ul>     
-  </div>
-  <div class="item4"><p class="text-uppercase h4">Horarios de atención</p>
-    <P class="h6"><ins>Martes a Sabados</ins></P>
-    <P class="h6">de 10:30 a 14:30 Hs y de 19:00 a 23:00 Hs</P>
-    <P class="h6"><ins>Domingos</ins></P>
-    <P class="h6">de 19:00 a 23:00 Hs</P>
-    <p class="text-uppercase h5">Contactanos</p>
-    <P class="h6">4626-0340</P>
-    <a href="https://www.gmail.com"><p>pizzeriaelmon@gmail.com</p></a>
-  </div> 
-</footer>
+        </div> 
+      </div>  
+  <footer class="grid-container">
+      <div class="item1">
+        <img class="logo-footer" src="/img/El Mon_Logotipo FINAL-02.png" alt="logoElmon">
+      </div>
+      <div class="item2">
+        <img class="imperial-footer" src="/img/logoImperialDos.png" alt="logoImperial">
+      </div>
+      <div class="item3">       
+        <p class="titulo-redes">Encontranos en las redes</p>
+          <ul class="redes"> 
+            <li><a href="https://api.whatsapp.com/send/?phone=5491126914316&text=Hola+El+Mon%2C+quiero+hacer+un+pedido&app_absent=0" class="btn-wsp" target="_blank"> <img  style="width: 40px; height: 40px;" src="img/whatsapp.png"></a></li>
+            <li><a href="https://m.facebook.com/El-Mon-102532042456336/"target="_blank"> <img style="width: 90px; height: 90px;" src="img/toppng.com-facebook-logo-fb-crack-break-effect-256x256.png"></a></li>
+            <li><a href="https://instagram.com/pizzeria.elmon?igshid=YzAyZWRIMzg=" target="_blank"> <img style="width: 100px; height: 100px;" src="/img/—Pngtree—instagram logo social media instagram_3572487.png"></a></li>      
+          </ul>     
+      </div>
+      <div class="item4"><p class="text-uppercase h4">Horarios de atención</p>
+        <P class="h6"><ins>Martes a Sabados</ins></P>
+        <P class="h6">de 11:00 a 15:00 Hs y de 19:00 a 23:30 Hs</P>
+        <P class="h6"><ins>Domingos</ins></P>
+        <P class="h6">de 19:00 a 23:30 Hs</P>
+        <p class="text-uppercase h5">Contactanos</p>
+        <P class="h6">4626-0340</P>
+        <a href="mailto:pizzeriaelmon@gmail.com"><p>pizzeriaelmon@gmail.com</p></a>
+      </div> 
+  </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-</body>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
+  </body>
 </html>
