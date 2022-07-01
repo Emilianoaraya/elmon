@@ -26,7 +26,7 @@
 
   body {
    font-family: fuenteDos;
-    background-image: url(/img/fondo2.jpg);
+    background-image: url(img/fondo2.jpg);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -79,7 +79,7 @@
     flex-direction: column;
     width: 100%;
     height: 100%;
-    background-image: url(/img/huica1e93b51910d27c05f4cd363ec11787.jpg);
+    background-image: url(img/huica1e93b51910d27c05f4cd363ec11787.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
