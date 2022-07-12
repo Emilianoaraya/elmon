@@ -411,4 +411,10 @@ ul div {
   .grid-container div{
     border: none;
   }
+  .logo-footer{
+    width: 80%;
+  }
+  .imperial-footer{
+    width: 35%;
+  }
 }
