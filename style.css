@@ -328,6 +328,46 @@ ul div {
   right: 0px;
   z-index: 1000;
 }
+
+
+
+/*MEDIODIAS*/
+/* i{
+  margin-right: 10px;
+  color: #fefefe;
+}
+#btn{
+background-color: rgb(13, 193, 67);
+border-color: #fefefe;
+}
+.aviso{
+  font-size: 25px;
+  font-family: fuente;
+  margin: 50px 0 50px ;
+}
+.titulo-mediodia{
+  font-size: 60px;
+  margin-top: 80px;
+}
+.menuNavMediodia{
+  max-height: 100px;
+  border: 1px solid #ddd;
+  display: flex;
+  overflow-x: auto;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.menuNavMediodia::-webkit-scrollbar{
+  display: none;
+  width: 0;
+}
+.menuNavMediodia .item{
+  text-align: center;
+  background-color: transparent;
+  margin-right: 130px ;
+} */
+
 /*RESPONSIVE*/
 
 @media screen and (max-width: 575px){
